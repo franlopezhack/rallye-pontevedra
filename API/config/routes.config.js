@@ -1,8 +1,9 @@
 const createError = require('http-errors');
 const express = require('express');
 const router = express.Router();
+const map = require('../controllers/maps.controller')
 
-
+router.get('/maps', map.list)
 
 router.use((req, res, next)=> next(createError(404, 'Route not found') ))
 
