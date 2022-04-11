@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-
 const Schema = mongoose.Schema;
+
 const mapsSchema = new Schema({
     name: {
         type: String,
@@ -11,15 +11,10 @@ const mapsSchema = new Schema({
         type: String
     },
 
-    image: {
+    maps: {
         type: String,
         required: 'Image is required'
     },
-
-    eventDT: {
-        type: Date,
-        required: 'Date is required'
-    }
 }, {
     timestamps: true
 });

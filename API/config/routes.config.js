@@ -4,8 +4,9 @@ const router = express.Router();
 const map = require('../controllers/maps.controller')
 
 router.get('/maps', map.list)
+router.post('/maps', map.create)
 
-router.use((req, res, next)=> next(createError(404, 'Route not found') ))
+router.use((req, res, next) => next(createError(404, 'Route not found')))
 
 router.use((error, req, res, next) => {
     console.error(error);
@@ -13,6 +14,7 @@ router.use((error, req, res, next) => {
     const data = {
         message: error.message
     };
+    
     res.status(error.status).json(data);
 })
 

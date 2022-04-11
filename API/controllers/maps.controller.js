@@ -1,15 +1,15 @@
 const mongoose = require('mongoose')
-const Maps = require('../models/rallye.model')
+const Map = require('../models/rallye.model')
 
 
 module.exports.list = (req, res, next) => {
-    Maps.find()
+    Map.find()
     .then((maps) => res.json(maps))
     .catch((error) => next(error))
 }
 
 module.exports.create = (req, res, next) => {
-    Maps.create()
-    .the()
-    .catch
+    Map.create(req.body)
+    .then(map => res.json(map))
+    .catch(error => next(error))
 }
