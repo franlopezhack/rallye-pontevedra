@@ -1,0 +1,5 @@
+.bulletin-board-img img{
+    height: 185px;
+    width: 160px;
+    object-fit: cover;
+}

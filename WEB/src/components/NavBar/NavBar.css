@@ -1,0 +1,26 @@
+.bar{
+    background-color: #2089cf;
+}
+.navbar a{
+    color: white;
+}
+
+.navbar button{
+    color: white;
+}
+
+.image-bg{
+    height: 300px;
+    width: 100%;
+    background-image: url(../../assets/logo/background.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 750px;
+}
+
+.image-bg img{
+    width: 300px;
+    height: 150px;
+    margin-top: -230px;
+    margin-left:50%
+}
