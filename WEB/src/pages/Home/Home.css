@@ -1,7 +1,7 @@
-.last-news{
-    background-color: #359de0;
-    width: 81%;
-    height: 50px;
+.nav{
+    height: 30px;
+  background-color: #2089cf;
+}
+.nav-link{
     color: white;
-    
 }

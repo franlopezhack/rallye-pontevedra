@@ -1,4 +1,9 @@
 .carousel{
-    width: 95%;
     object-fit: cover;
 }
+
+@media (max-width: 600px) {
+    .carousel-item {
+      height: 140px;
+    }
+  }

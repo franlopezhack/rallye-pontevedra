@@ -1,26 +1,49 @@
-.bar{
+.navbar{
     background-color: #2089cf;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+   
 }
-.navbar a{
+.navbar-nav a{
     color: white;
+}
+
+
+.nav-item{
+    display: block;
+    color: #fff;
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
 }
 
 .navbar button{
     color: white;
 }
 
-.image-bg{
-    height: 300px;
-    width: 100%;
-    background-image: url(../../assets/logo/background.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 750px;
+#banner{
+    position: relative;
 }
 
-.image-bg img{
-    width: 300px;
-    height: 150px;
-    margin-top: -230px;
-    margin-left:50%
+.img1{
+    height: 800%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.img2{
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.navbar a:hover{
+    background:rgba(255,255,255,0.5);
 }
