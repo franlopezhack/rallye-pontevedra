@@ -1,9 +1,15 @@
-.carousel{
-    object-fit: cover;
+.carousel-item img{
+    object-fit:fill;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 1024px) {
     .carousel-item {
-      height: 140px;
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .carousel-item {
+      height: 130px;
     }
   }

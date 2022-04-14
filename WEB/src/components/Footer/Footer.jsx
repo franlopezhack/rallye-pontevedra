@@ -7,13 +7,14 @@ import deputacion from '../../assets/images/Corporaciones/Deputacion-de-Ponteved
 import xunta from '../../assets/images/Corporaciones/xunta.png'
 import deporte from '../../assets/images/Corporaciones/deporte-removebg-preview.png'
 import xacobeo from '../../assets/images/Corporaciones/xacobeo-removebg-preview.png'
+import './Footer.css'
 
 
 function Footer() {
     return (
         <div className="footer">
-            <section>
-                <ul>
+            <section className='footer-section'>
+                <ul className='footer-list d-flex flex-wrap justify-content-start align-items-center'>
                     <article>
                         <img src={sanxenxo} alt={sanxenxo} />
                     </article>
@@ -27,7 +28,7 @@ function Footer() {
                     </article>
 
                     <article>
-                        <img src={campolameiro} alt={campolameiro} />
+                        <img src={meaño} alt={campolameiro} />
                     </article>
 
                     <article>
@@ -52,6 +53,19 @@ function Footer() {
 
                 </ul>
             </section>
+            <footer className=''>
+                <div className='footer-container d-flex flex-wrap justify-content-center'>
+
+                    <div className='media  d-flex text-align-center justify-content-evenly mb-5'>
+                        <a href="https://www.facebook.com/RallyePontevedra"><i className='fa fa-facebook'></i></a>
+                        <a  href="https://www.instagram.com/rallypontevedra/"><i className='fa fa-instagram'></i></a>
+                        <a  href="mailto:info@rallydepontevedra.com"><i className='fa fa-envelope'></i></a>
+                        <a  href="/contacto"><i className='fa fa-phone'></i></a>
+                    </div>
+                    <p className='copy'>Franhacker &copy;</p>
+                </div>
+
+            </footer>
         </div>
     )
 }

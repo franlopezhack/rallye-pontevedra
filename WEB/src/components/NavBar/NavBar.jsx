@@ -6,7 +6,7 @@ function NavBar() {
     return (
 
         <>
-          
+
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,28 +18,30 @@ function NavBar() {
                                 <a className="nav-link active" aria-current="page" href="/">NOTICIAS</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">PARTICIPANTES</a>
+                                <a className="nav-link" href="/participantes">PARTICIPANTES</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">PÚBLICO</a>
+                                <a className="nav-link " href='/prensa'>PRENSA</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href='/'>PRENSA</a>
+                                <a className="nav-link " href='/contacto'>CONTACTO</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href='/'>CONTACTO</a>
+                                <a className="nav-link" href="/público">PÚBLICO</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href='/'>SEGURIDAD</a>
+                                <p className="nav-link danger" href='/seguridad'>SEGURIDAD</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <section id='banner'>
-                <img className='img1' src={banner} alt={banner} />
-                <img className='img2' src={placa}alt={placa} />
-           </section>
+            <div className='header'>
+                <section id='banner'>
+                    <img className='img1' src={banner} alt={banner} />
+                    <img className='img2' src={placa} alt={placa} />
+                </section>
+            </div>
 
         </>
     )

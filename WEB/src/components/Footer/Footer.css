@@ -1,0 +1,25 @@
+.copy{
+    font-size: 10px;
+}
+
+.media{
+width: 100%;
+justify-content: space-between;
+}
+
+.media a{
+    color: #333;
+    text-decoration: none;    
+}
+
+.media i {
+    font-size: 50px;
+}
+
+
+
+.footer-list img {
+    height: 100px;
+    width: 60%;
+    object-fit: contain;
+}

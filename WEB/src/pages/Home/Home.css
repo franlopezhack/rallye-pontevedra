@@ -5,3 +5,9 @@
 .nav-link{
     color: white;
 }
+
+@media (min-width:820px) {
+  .nav a {
+    font-size: 25px;
+  }
+}
