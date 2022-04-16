@@ -6,7 +6,7 @@ const release = require('../controllers/release.controller')
 
 router.get('/maps', map.list)
 router.post('/maps', map.create)
-// router.delete('/maps', map.delete)
+router.delete('/maps/:id', map.delete)
 router.get('/releases', release.list)
 router.post('/releases', release.create)
 
