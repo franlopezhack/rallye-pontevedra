@@ -5,11 +5,19 @@
 @media (min-width: 1024px) {
     .carousel-item {
       height: 400px;
+      
     }
   }
 
   @media (max-width: 1024px) {
     .carousel-item {
-      height: 130px;
+      height: 230px;
+    }
+  }
+
+  @media (max-width:1024px){
+    .home-carousel{
+      margin-top: -30px;
+ 
     }
   }

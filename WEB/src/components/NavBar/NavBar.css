@@ -5,10 +5,15 @@
     top: 0;
     left: 0;
     z-index: 1;
-   
 }
+
 .navbar-nav a{
     color: white;
+}
+
+.navbar-nav li{
+    display: flex;
+    align-items: center;
 }
 
 #navbarNav{
@@ -39,13 +44,16 @@
 }
 
 
+
+
 .img1{
-    height: 300px;
+    height: 200px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     object-fit: cover;
     opacity: 0.4 ;
+    
 }
 
 .img2{
@@ -55,6 +63,13 @@
     left: 80%;
     transform: translateX(-50%) translateY(-50%);
 }
+@media(min-width:1024px){
+    .img2{
+        width: 19%;
+        margin-top: 10px;
+    }
+}
+
 
 .navbar a:hover{
     background:rgba(255,255,255,0.5);
@@ -63,6 +78,8 @@
 .navbar p:hover{
     background:rgb(233, 14, 14);
 }
+
+
 
 
 

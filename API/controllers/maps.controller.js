@@ -1,5 +1,4 @@
-const mongoose = require('mongoose')
-const Map = require('../models/rallye.model')
+const Map = require('../models/maps.model')
 
 
 module.exports.list = (req, res, next) => {
