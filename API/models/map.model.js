@@ -15,6 +15,9 @@ const mapSchema = new Schema({
         type: String,
         required: 'Image is required'
     },
+    mapDT:{
+        type: String
+    }
 }, {
     timestamps: true
 });
