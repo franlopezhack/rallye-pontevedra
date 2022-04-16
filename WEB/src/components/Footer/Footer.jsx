@@ -12,61 +12,65 @@ import './Footer.css'
 
 function Footer() {
     return (
-        <div className="footer">
-            <section className='footer-section'>
-                <ul className='footer-list d-flex'>
-                    <article className='me-4'>
-                        <img src={sanxenxo} alt={sanxenxo} />
-                    </article>
-        
-                    <article className='me-4'>
-                        <img src={meaño} alt={meaño} />
-                    </article>
+        <>
+        <hr/>
+            <div className="footer">
+                <section className='footer-section'>
+                    <ul className='footer-list d-flex flex-wrap justify-content-between'>
+                        <article className='me-4 mb-5'>
+                            <img src={sanxenxo} alt={sanxenxo} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={cerdedo} alt={cerdedo} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={meaño} alt={meaño} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={meaño} alt={campolameiro} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={cerdedo} alt={cerdedo} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={moraña} alt={moraña} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={meaño} alt={campolameiro} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={deporte} alt={deporte} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={moraña} alt={moraña} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={deputacion} alt={deputacion} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={deporte} alt={deporte} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={xunta} alt={xunta} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={deputacion} alt={deputacion} />
+                        </article>
 
-                    <article className='me-4'>
-                        <img src={xacobeo} alt={xacobeo} />
-                    </article>
+                        <article className='me-4'>
+                            <img src={xunta} alt={xunta} />
+                        </article>
 
-                </ul>
-            </section>
-            <footer className=''>
-                <div className='footer-container d-flex flex-wrap justify-content-center '>
+                        <article className='me-4'>
+                            <img src={xacobeo} alt={xacobeo} />
+                        </article>
 
-                    <div className='media  d-flex text-align-center justify-content-evenly mb-5'>
-                        <a href="https://www.facebook.com/RallyePontevedra"><i className='fa fa-facebook'></i></a>
-                        <a  href="https://www.instagram.com/rallypontevedra/"><i className='fa fa-instagram'></i></a>
-                        <a  href="mailto:info@rallydepontevedra.com"><i className='fa fa-envelope'></i></a>
-                        <a  href="/contacto"><i className='fa fa-phone'></i></a>
+                    </ul>
+                </section>
+                <footer className=''>
+                    <div className='footer-container d-flex flex-wrap justify-content-center '>
+
+                        <div className='media  d-flex text-align-center justify-content-evenly mb-5'>
+                            <a href="https://www.facebook.com/RallyePontevedra"><i className='fa fa-facebook'></i></a>
+                            <a href="https://www.instagram.com/rallypontevedra/"><i className='fa fa-instagram'></i></a>
+                            <a href="mailto:info@rallydepontevedra.com"><i className='fa fa-envelope'></i></a>
+                            <a href="/contacto"><i className='fa fa-phone'></i></a>
+                        </div>
+
                     </div>
-                    
-                </div>
-                <p className='copy'>Rally de Pontevedra 2022 &copy;</p>
-            </footer>
-        </div>
+                    <p className='copy'>Rally de Pontevedra 2022 &copy;</p>
+                </footer>
+            </div>
+        </>
+
     )
 }
 
