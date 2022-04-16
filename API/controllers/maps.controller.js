@@ -1,9 +1,9 @@
-const Map = require('../models/maps.model')
+const Map = require('../models/map.model')
 
 
 module.exports.list = (req, res, next) => {
     Map.find()
-    .then((maps) => res.json(maps))
+    .then((maps) => res.statu(201).json(maps))
     .catch((error) => next(error))
 }
 

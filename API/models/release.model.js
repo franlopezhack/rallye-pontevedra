@@ -19,5 +19,5 @@ const releaseSchema = new Schema ({
     timestamps: true,
 }) 
 
-const Release = model.mongoose('Release', releaseSchema)
-model.export = Release
+const Release = mongoose.model('Release', releaseSchema);
+module.exports = Release
