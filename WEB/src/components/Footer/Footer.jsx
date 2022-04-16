@@ -14,40 +14,40 @@ function Footer() {
     return (
         <div className="footer">
             <section className='footer-section'>
-                <ul className='footer-list d-flex flex-wrap justify-content-start align-items-center'>
-                    <article>
+                <ul className='footer-list d-flex'>
+                    <article className='me-4'>
                         <img src={sanxenxo} alt={sanxenxo} />
                     </article>
-
-                    <article>
+        
+                    <article className='me-4'>
                         <img src={meaño} alt={meaño} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={cerdedo} alt={cerdedo} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={meaño} alt={campolameiro} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={moraña} alt={moraña} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={deporte} alt={deporte} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={deputacion} alt={deputacion} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={xunta} alt={xunta} />
                     </article>
 
-                    <article>
+                    <article className='me-4'>
                         <img src={xacobeo} alt={xacobeo} />
                     </article>
 

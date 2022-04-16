@@ -20,6 +20,10 @@ http.interceptors.response.use(
   }
 );
 
-export function getMaps(){
-    return http.get('/api/maps')
+export function getMaps() {
+  return http.get('/api/maps')
+}
+
+export function getReleases() {
+  return http.get('/api/releases')
 }
