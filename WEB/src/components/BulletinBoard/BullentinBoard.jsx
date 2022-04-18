@@ -13,7 +13,7 @@ function BulletinBoard() {
                 </article>
             </Link>
             <article className='mb-2 m-1'>
-                <img src={espectador} alt="" />
+                <img src={espectador} alt="/releases" />
             </article>
             <article className='mb-2 m-1'>
                 <img src={tiempos} alt="" />
