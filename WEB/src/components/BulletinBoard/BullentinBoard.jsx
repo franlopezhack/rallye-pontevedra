@@ -9,16 +9,16 @@ function BulletinBoard() {
         <div className='bulletin-board d-flex flex-wrap justify-content-center'>
             <Link to='/anuncios'>
                 <article className='mb-2 m-1'>
-                    <img src={anuncios} alt="/anuncios" />
+                    <img src={anuncios}  alt={anuncios} />
                 </article>
             </Link>
-            <Link>
+            <Link to='/releases'>
             <article className='mb-2 m-1'>
-                <img src={espectador} alt="/releases" />
+                <img src={espectador} alt={espectador} />
             </article>
             </Link>
             <article className='mb-2 m-1'>
-                <img src={tiempos} alt="" />
+                <img src={tiempos} alt={tiempos} />
             </article>
         </div>
     )

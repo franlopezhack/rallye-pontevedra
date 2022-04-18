@@ -7,11 +7,11 @@ function Maps() {
     const [maps, setMaps] = useState(undefined)
 
     useEffect(() => {
-        getMaps(maps)
+        getMaps()
             .then((maps) => {
                 setMaps(maps)
             })
-    }, [maps])
+    }, [])
 
     if (!maps) {
         return null
