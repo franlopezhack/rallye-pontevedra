@@ -25,7 +25,7 @@ function Releases() {
     return (
         <div className="release-card d-flex flex-wrap">
             {releases.map(release =>
-                <Link to={`/releases/${release.id}`} style={{textDecoration:"none"}}>
+                <Link to={`/releases/${release.id}`} >
                     <div className="card mb-5 me-5" style={{ maxWidth: "540px" }} key={release.title} >
                         <div className="row g-0">
                             <div className="col-md-4" id='img-card'>
