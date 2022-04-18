@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4de826b9.css",
-    "main.js": "/static/js/main.90749184.js",
+    "main.js": "/static/js/main.1f9f7198.js",
     "static/media/img1.JPG": "/static/media/img1.8a199f678c8b17624b62.JPG",
     "static/media/img3.JPG": "/static/media/img3.4b64af36866eea8738bd.JPG",
     "static/media/img2.JPG": "/static/media/img2.7d023807c87ce9efda42.JPG",
@@ -20,10 +20,10 @@
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
     "main.4de826b9.css.map": "/static/css/main.4de826b9.css.map",
-    "main.90749184.js.map": "/static/js/main.90749184.js.map"
+    "main.1f9f7198.js.map": "/static/js/main.1f9f7198.js.map"
   },
   "entrypoints": [
     "static/css/main.4de826b9.css",
-    "static/js/main.90749184.js"
+    "static/js/main.1f9f7198.js"
   ]
 }
