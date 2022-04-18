@@ -20,10 +20,11 @@ function NavBar() {
                                     <p className="nav-link active " aria-current="page">NOTICIAS</p>
                                 </li>
                             </Link>
-                            <Link></Link>
-                            <li className="nav-item">
-                                <p className="nav-link" href="/participantes">PARTICIPANTES</p>
-                            </li>
+                            <Link>
+                                <li className="nav-item">
+                                    <p className="nav-link" href="/participantes">PARTICIPANTES</p>
+                                </li>
+                            </Link>
                             <Link>
                                 <li className="nav-item">
                                     <p className="nav-link " href='/prensa'>PRENSA</p>
