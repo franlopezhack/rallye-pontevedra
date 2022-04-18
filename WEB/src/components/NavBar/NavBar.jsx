@@ -15,9 +15,11 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ">
-                            <li className="nav-item ">
-                                <a className="nav-link active " aria-current="page" href="/releases">NOTICIAS</a>
+                        <Link to='/release'>
+                        <li className="nav-item ">
+                                <p className="nav-link active " aria-current="page">NOTICIAS</p>
                             </li>
+                        </Link>
                             <li className="nav-item">
                                 <a className="nav-link" href="/participantes">PARTICIPANTES</a>
                             </li>
