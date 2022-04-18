@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0bd2ece3.css",
+    "main.js": "/static/js/main.9a836e4e.js",
+    "static/media/img1.JPG": "/static/media/img1.8a199f678c8b17624b62.JPG",
+    "static/media/img3.JPG": "/static/media/img3.4b64af36866eea8738bd.JPG",
+    "static/media/img2.JPG": "/static/media/img2.7d023807c87ce9efda42.JPG",
+    "static/media/background.JPG": "/static/media/background.b04f8f332e9c44bbe468.JPG",
+    "static/media/CampoLameiro.svg.png": "/static/media/CampoLameiro.svg.607bc48a545d76e5e2b0.png",
+    "static/media/placa.png": "/static/media/placa.ca58d6837dee2eec7b8a.png",
+    "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
+    "static/media/tiempos.png": "/static/media/tiempos.6b2f1ac7771d8ad490f2.png",
+    "static/media/MSANXENXO.L.COLOR_1-removebg-preview.png": "/static/media/MSANXENXO.L.COLOR_1-removebg-preview.2895f90e533cb36064d5.png",
+    "static/media/espectador.png": "/static/media/espectador.619e51838ab5afc5770a.png",
+    "static/media/xacobeo-removebg-preview.png": "/static/media/xacobeo-removebg-preview.d73e9d0bbf06556f0cd7.png",
+    "static/media/cerdedo-removebg-preview.png": "/static/media/cerdedo-removebg-preview.1688ae46eaad611107e1.png",
+    "static/media/deporte-removebg-preview.png": "/static/media/deporte-removebg-preview.def4942b264e56173650.png",
+    "static/media/meaño-removebg-preview.png": "/static/media/meaño-removebg-preview.49f45fd00ad70af18554.png",
+    "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
+    "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
+    "index.html": "/index.html",
+    "main.0bd2ece3.css.map": "/static/css/main.0bd2ece3.css.map",
+    "main.9a836e4e.js.map": "/static/js/main.9a836e4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bd2ece3.css",
+    "static/js/main.9a836e4e.js"
+  ]
+}
