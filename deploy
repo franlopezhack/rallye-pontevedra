@@ -7,4 +7,4 @@ mv build/* ../API/public
 cd ..
 git add .
 git commit -m 'new web'
-git subtree push --prefix API heroku master
+git subtree push --prefix API heroku main
