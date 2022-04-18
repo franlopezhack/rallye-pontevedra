@@ -15,34 +15,34 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ">
-                            <Link to='/release'>
+                            <Link to='/releases' style={{textDecoration:'none'}}>
                                 <li className="nav-item ">
                                     <p className="nav-link active " aria-current="page">NOTICIAS</p>
                                 </li>
                             </Link>
-                            <Link>
+                            <Link to='/participantes' style={{textDecoration:'none'}}>
                                 <li className="nav-item">
-                                    <p className="nav-link" href="/participantes">PARTICIPANTES</p>
+                                    <p className="nav-link" >PARTICIPANTES</p>
                                 </li>
                             </Link>
-                            <Link>
+                            <Link to='/prensa' style={{textDecoration:'none'}}>
                                 <li className="nav-item">
-                                    <p className="nav-link " href='/prensa'>PRENSA</p>
+                                    <p className="nav-link ">PRENSA</p>
                                 </li>
                             </Link>
-                            <Link>
+                            <Link to='/contacto' style={{textDecoration:'none'}}>
                                 <li className="nav-item">
                                     <p className="nav-link " href='/contacto'>CONTACTO</p>
                                 </li>
                             </Link>
-                            <Link>
+                            <Link to='/espectadores' style={{textDecoration:'none'}}>
                                 <li className="nav-item ">
                                     <p className="nav-link fw-bold" href="/spectators">PÚBLICO</p>
                                 </li>
                             </Link>
-                            <Link>
+                            <Link to='/seguridad' style={{textDecoration:'none'}}>
                                 <li className="nav-item d-flex">
-                                    <p className="nav-link " href='/seguridad'>SEGURIDAD</p>
+                                    <p className="nav-link ">SEGURIDAD</p>
                                 </li>
                             </Link>
                         </ul>

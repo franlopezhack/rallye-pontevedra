@@ -14,7 +14,7 @@ function App() {
       <div className="container p-5">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/spectators" element={<Maps />} />
+          <Route path="/espectadores" element={<Maps />} />
           <Route path="/releases" element={<Releases />} />
         </Routes>
       </div>
