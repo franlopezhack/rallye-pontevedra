@@ -15,26 +15,35 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ">
-                        <Link to='/release'>
-                        <li className="nav-item ">
-                                <p className="nav-link active " aria-current="page">NOTICIAS</p>
-                            </li>
-                        </Link>
+                            <Link to='/release'>
+                                <li className="nav-item ">
+                                    <p className="nav-link active " aria-current="page">NOTICIAS</p>
+                                </li>
+                            </Link>
+                            <Link></Link>
                             <li className="nav-item">
-                                <a className="nav-link" href="/participantes">PARTICIPANTES</a>
+                                <p className="nav-link" href="/participantes">PARTICIPANTES</p>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link " href='/prensa'>PRENSA</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link " href='/contacto'>CONTACTO</a>
-                            </li>
-                            <li className="nav-item ">
-                                <a className="nav-link fw-bold" href="/spectators">PÚBLICO</a>
-                            </li>
-                            <li className="nav-item d-flex">
-                                <p className="nav-link " href='/seguridad'>SEGURIDAD</p>
-                            </li>
+                            <Link>
+                                <li className="nav-item">
+                                    <p className="nav-link " href='/prensa'>PRENSA</p>
+                                </li>
+                            </Link>
+                            <Link>
+                                <li className="nav-item">
+                                    <p className="nav-link " href='/contacto'>CONTACTO</p>
+                                </li>
+                            </Link>
+                            <Link>
+                                <li className="nav-item ">
+                                    <p className="nav-link fw-bold" href="/spectators">PÚBLICO</p>
+                                </li>
+                            </Link>
+                            <Link>
+                                <li className="nav-item d-flex">
+                                    <p className="nav-link " href='/seguridad'>SEGURIDAD</p>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                 </div>
