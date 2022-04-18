@@ -16,7 +16,7 @@ function Home() {
             </div>
             <div>
                 <nav className="nav justify-content-center align-content-center mb-3">
-                    <a className="nav-link active fw-bold" aria-current="page" href="/noticias">Ultimas Noticias</a>
+                    <a className="nav-link active " aria-current="page" href="/releases">Ultimas Noticias</a>
                 </nav>
 
                 <div className="card mb-3" style={{maxWidth: "540px"}}>
