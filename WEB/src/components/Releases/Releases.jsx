@@ -14,7 +14,7 @@ function Releases() {
             .then((releases) => {
                 setReleases(releases)
             })
-    }, []);
+    }, [releases]);
 
 
     if (!releases) {
