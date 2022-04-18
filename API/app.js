@@ -5,10 +5,14 @@ const logger = require('morgan');
 const mongoose = require('mongoose');
 const createError = require('http-errors')
 
-/*Congis*/
+/*Confgis*/
 require('./config/db.config');
 
 const app = express();
+
+//Midlewares
+app.use(express.static('public'))
+
 
 app.use((req, res, next) => {
     res.setHeader(
