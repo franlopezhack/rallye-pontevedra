@@ -17,9 +17,10 @@ function BulletinBoard() {
                 <img src={espectador} alt={espectador} />
             </article>
             </Link>
-            <article className='mb-2 m-1'>
+            
+            <a href='http://temposfga.es/' className='mb-2 m-1'>
                 <img src={tiempos} alt={tiempos} />
-            </article>
+            </a>
         </div>
     )
 }
