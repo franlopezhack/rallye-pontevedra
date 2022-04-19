@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.1069882b.css",
-    "main.js": "/static/js/main.f2cc55bf.js",
+    "main.js": "/static/js/main.2c4bee29.js",
+    "static/media/img1.JPG": "/static/media/img1.f6e06ae70bdec93e0f22.JPG",
+    "static/media/img3.JPG": "/static/media/img3.03b4ce6201a204f50439.JPG",
+    "static/media/img2.JPG": "/static/media/img2.4b64af36866eea8738bd.JPG",
+    "static/media/banner.JPG": "/static/media/banner.b04f8f332e9c44bbe468.JPG",
     "static/media/CampoLameiro.svg.png": "/static/media/CampoLameiro.svg.607bc48a545d76e5e2b0.png",
     "static/media/placa.png": "/static/media/placa.ca58d6837dee2eec7b8a.png",
     "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
@@ -17,10 +21,10 @@
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
     "main.1069882b.css.map": "/static/css/main.1069882b.css.map",
-    "main.f2cc55bf.js.map": "/static/js/main.f2cc55bf.js.map"
+    "main.2c4bee29.js.map": "/static/js/main.2c4bee29.js.map"
   },
   "entrypoints": [
     "static/css/main.1069882b.css",
-    "static/js/main.f2cc55bf.js"
+    "static/js/main.2c4bee29.js"
   ]
 }

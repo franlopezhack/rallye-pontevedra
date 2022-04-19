@@ -1,7 +1,7 @@
 import './HomeCarousel.css'
-import img1 from '../../assets/logo/placa.png'
-import img2 from '../../assets/logo/placa.png'
-import img3 from '../../assets/logo/placa.png'
+import img1 from '../../assets/images/CarouselImages/img1.JPG'
+import img2 from '../../assets/images/CarouselImages/img2.JPG'
+import img3 from '../../assets/images/CarouselImages/img3.JPG'
 
 function HomeCarousel() {
     return (

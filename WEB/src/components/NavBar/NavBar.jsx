@@ -1,5 +1,5 @@
 import './NavBar.css'
-import banner from '../../assets/logo/placa.png'
+import banner from '../../assets/logo/banner.JPG'
 import placa from '../../assets/logo/placa.png'
 import federacion from '../../assets/logo/federacion.png'
 import { Link } from 'react-router-dom'
