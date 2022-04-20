@@ -27,3 +27,7 @@ export function getMaps() {
 export function getReleases() {
   return http.get('/api/releases')
 }
+
+export function getReleasesDetail (id) {
+  return http.get(`api/releases/${id}`)
+}

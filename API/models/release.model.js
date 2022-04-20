@@ -17,6 +17,14 @@ const releaseSchema = new Schema ({
     }
 },{
     timestamps: true,
+    toJSON:{
+        transform: (doc, release) => {
+            release.id = doc._id;
+            delete release.__v;
+            delete release._id;
+            return release
+        }
+    }
 }) 
 
 const Release = mongoose.model('Release', releaseSchema);

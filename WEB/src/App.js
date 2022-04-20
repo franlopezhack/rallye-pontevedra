@@ -6,6 +6,7 @@ import Maps from "./components/Maps/Maps";
 import NavBar from './components/NavBar/NavBar';
 import Releases from "./components/Releases/Releases";
 import Home from './pages/Home/Home'
+import ReleasesDetail from "./components/ReleasesDetail/ReleasesDetail";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/espectadores" element={<Maps />} />
           <Route path="/releases" element={<Releases />} />
+          <Route path="/releases/:id" element={<ReleasesDetail/>} />
         </Routes>
       </div>
       <Footer />
