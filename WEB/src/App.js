@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar';
 import Releases from "./components/Releases/Releases";
 import Home from './pages/Home/Home'
 import ReleasesDetail from "./components/ReleasesDetail/ReleasesDetail";
+import NewRelease from "./components/NewRelease/NewRelease";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/espectadores" element={<Maps />} />
           <Route path="/releases" element={<Releases />} />
           <Route path="/releases/:id" element={<ReleasesDetail/>} />
+          <Route path="/new-release" element={<NewRelease/>} />
         </Routes>
       </div>
       <Footer />

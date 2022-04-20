@@ -24,6 +24,10 @@ export function getMaps() {
   return http.get('/api/maps')
 }
 
+export function newRelease(release) {
+  return http.post('/api/releases', release)
+}
+
 export function getReleases() {
   return http.get('/api/releases')
 }
