@@ -11,8 +11,9 @@ router.delete('/maps/:id', map.delete)
 
 router.get('/releases', releases.list)
 router.post('/releases', releases.create)
+router.delete('/releases/:id', releases.delete)
 router.get("/releases/:id", releases.detail);
-// router.delete('/releases/:id', releases.delete)
+
 
 
 router.use((req, res, next) => next(createError(404, 'Route not found')))

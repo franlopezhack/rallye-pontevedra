@@ -21,7 +21,7 @@ function ReleasesDetail() {
 
     return (
         <div className="release-card d-flex flex-wrap ">
-                    <div className="card mb-5 me-5" >
+                    <div className="card card-detail mb-5 me-5" >
                         <div className="row g-0">
                             <div className="col-md-4" id='img-card'>
                                 <img src={releases.image} className="img-fluid rounded-start" alt={releases.image} />

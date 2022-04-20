@@ -36,7 +36,7 @@ function NewRelease() {
                 setError(error.response.data.message)
             })
     }
-console.log(newRelease)
+console.log(data)
 
     return (
 
