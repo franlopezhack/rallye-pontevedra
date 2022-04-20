@@ -12,11 +12,11 @@ function BulletinBoard() {
                     <img src={anuncios}  alt={anuncios} />
                 </article>
             </Link>
-            <Link to='/releases'>
-            <article className='mb-2 m-1'>
+          
+            <a href='' className='mb-2 m-1'>
                 <img src={espectador} alt={espectador} />
-            </article>
-            </Link>
+            </a>
+         
             
             <a href='http://temposfga.es/' className='mb-2 m-1'>
                 <img src={tiempos} alt={tiempos} />

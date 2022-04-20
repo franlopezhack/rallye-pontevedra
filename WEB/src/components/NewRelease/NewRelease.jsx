@@ -22,6 +22,7 @@ function NewRelease() {
             ...data,
             [e.target.id]: e.target.value
         })
+       
     }
 
 
@@ -35,7 +36,7 @@ function NewRelease() {
                 setError(error.response.data.message)
             })
     }
-
+console.log(newRelease)
 
     return (
 
@@ -45,7 +46,7 @@ function NewRelease() {
 
                 <div className="mb-3">
                     {error && <div className="alert alert-danger">{error}</div>}
-                    <label for="titile" className="form-label">
+                    <label htmlFor="title" className="form-label">
                         Título noticia
                     </label>
                     <input
@@ -58,7 +59,7 @@ function NewRelease() {
                 </div>
 
                 <div className="mb-3">
-                    <label for="description" className="form-label">
+                    <label htmlFor="description" className="form-label">
                         Descripcion noticia
                     </label>
                     <input
@@ -71,7 +72,7 @@ function NewRelease() {
                 </div>
 
                 <div className="mb-3">
-                    <label for="image" className="form-label">
+                    <label htmlFor="image" className="form-label">
                        Imagen noticia
                     </label>
                     <input
