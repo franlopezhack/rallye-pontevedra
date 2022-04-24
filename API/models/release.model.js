@@ -12,9 +12,8 @@ const releaseSchema = new Schema ({
         required: 'Release description in required'
     },
 
-    image:{
+    avatar:{
         type: String,
-        required: 'Release description in required'
     }
 },{
     timestamps: true,

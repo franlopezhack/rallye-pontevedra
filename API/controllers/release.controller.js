@@ -9,7 +9,10 @@ module.exports.list = (req, res, next) => {
 };
 
 module.exports.create = (req, res, next) => {
-    Release.create(req.body)
+    Release.create({
+        ...req.body,
+        avatar: req?.file?.path
+    })
         .then(release => res.status(201).json(release))
         .catch(error => next(error))
 };
