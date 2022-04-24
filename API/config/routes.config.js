@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const map = require('../controllers/maps.controller')
 const releases = require('../controllers/release.controller')
+const upload = require('../config/multer.config')
 
 router.get('/maps', map.list)
 router.post('/maps', map.create)
@@ -10,7 +11,7 @@ router.get('/maps/:id', map.detail)
 router.delete('/maps/:id', map.delete)
 
 router.get('/releases', releases.list)
-router.post('/releases', releases.create)
+router.post('/releases', upload.single('image'), releases.create)
 router.delete('/releases/:id', releases.delete)
 router.get("/releases/:id", releases.detail);
 

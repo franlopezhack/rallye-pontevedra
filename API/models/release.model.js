@@ -14,6 +14,7 @@ const releaseSchema = new Schema ({
 
     image:{
         type: String,
+        required: 'Release description in required'
     }
 },{
     timestamps: true,
