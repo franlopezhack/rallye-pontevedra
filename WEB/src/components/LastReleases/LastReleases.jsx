@@ -29,7 +29,7 @@ function LastReleases() {
                     <div className="card mb-5 me-5" style={{ maxWidth: "540px" }}  >
                         <div className="row g-0">
                             <div className="col-md-4" id='img-card'>
-                                <img src={release.image} className="img-fluid rounded-start" alt={release.image} />
+                                <img src={release.avatar} className="img-fluid rounded-start" alt={release.image} />
                             </div>
                             <div className="col-md-8 text-release">
                                 <div className="card-body">

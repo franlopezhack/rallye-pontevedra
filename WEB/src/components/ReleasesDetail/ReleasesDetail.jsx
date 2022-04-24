@@ -24,7 +24,7 @@ function ReleasesDetail() {
                     <div className="card card-detail mb-5 me-5" >
                         <div className="row g-0">
                             <div className="col-md-4" id='img-card'>
-                                <img src={releases.image} className="img-fluid rounded-start" alt={releases.image} />
+                                <img src={releases.avatar} className="img-fluid rounded-start" alt={releases.image} />
                             </div>
                             <div className="col-md-8 text-release">
                                 <div className="card-body">
