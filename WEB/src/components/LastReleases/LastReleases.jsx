@@ -12,7 +12,7 @@ function LastReleases() {
     useEffect(() => {
         getReleases()
             .then((releases) => {
-                setReleases(releases.reverse().slice(0,2))
+                setReleases(releases)
             })
     }, []);
 
