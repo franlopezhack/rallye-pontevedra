@@ -8,6 +8,11 @@ import Releases from "./components/Releases/Releases";
 import Home from './pages/Home/Home'
 import ReleasesDetail from "./components/ReleasesDetail/ReleasesDetail";
 import NewRelease from "./components/NewRelease/NewRelease";
+import Participants from "./components/Participants/Participants";
+import Spectators from "./components/Spectators/Spectators";
+import RaceRegulations from "./components/RaceRegulations/RaceRegulations";
+import Contact from "./components/Contact/Contact";
+import Press from "./components/Press/Press";
 
 function App() {
   return (
@@ -20,6 +25,11 @@ function App() {
           <Route path="/releases" element={<Releases />} />
           <Route path="/releases/:id" element={<ReleasesDetail/>} />
           <Route path="/new-release" element={<NewRelease/>} />
+          <Route path="/participantes" element={<Participants/>} />
+          <Route path="/espectadores" element={<Spectators/>} />
+          <Route path="/seguridad" element={<RaceRegulations/>} />
+          <Route path="/contacto" element={<Contact/>} />
+          <Route path="/prensa" element={<Press/>} />
         </Routes>
       </div>
       <Footer />

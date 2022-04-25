@@ -19,65 +19,65 @@ import Marquee from 'react-fast-marquee'
 function Home() {
     return (
         <div className="home">
-        
+
             <div className="">
                 <HomeCarousel />
             </div>
             <div>
-            <Marquee>
-            <section className='footer-section'>
-                    <ul className='footer-list d-flex flex-wrap justify-content-between'>
-                        <article className='me-4 mb-5'>
-                            <img src={sanxenxo} alt={sanxenxo} />
-                        </article>
+                <Marquee  pauseOnHover={true} gradientWidth={50} speed={40} >
+                    <section className='nav-section'>
+                        <ul className='nav-list d-flex flex-wrap justify-content-between'>
+                            <Link to='/' className='image-wrapper me-4 mb-5'>
+                                <img src={sanxenxo} alt={sanxenxo} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={meaño} alt={meaño} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={meaño} alt={meaño} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={cerdedo} alt={cerdedo} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={cerdedo} alt={cerdedo} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={campolameiro} alt={campolameiro} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={campolameiro} alt={campolameiro} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={moraña} alt={moraña} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={moraña} alt={moraña} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={deporte} alt={deporte} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={deporte} alt={deporte} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={deputacion} alt={deputacion} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={deputacion} alt={deputacion} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={xunta} alt={xunta} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={xunta} alt={xunta} />
+                            </Link>
 
-                        <article className='me-4'>
-                            <img src={xacobeo} alt={xacobeo} />
-                        </article>
+                            <Link to='/' className='image-wrapper me-4'>
+                                <img src={xacobeo} alt={xacobeo} />
+                            </Link>
 
-                    </ul>
-                </section>
-            </Marquee>
+                        </ul>
+                    </section>
+                </Marquee>
             </div>
             <div>
                 <BulletinBoard />
             </div>
             <div>
                 <nav className="nav justify-content-center align-content-center mb-3">
-                <Link to='/releases'>
-                <p className="nav-link active " aria-current="page">Ultimas Noticias</p>
-                </Link>
+                    <Link to='/releases'>
+                        <p className="nav-link active " aria-current="page">Ultimas Noticias</p>
+                    </Link>
                 </nav>
 
-                <LastReleases/>
+                <LastReleases />
             </div>
         </div>
     )

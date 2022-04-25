@@ -9,7 +9,7 @@ function NavBar() {
 
         <>
 
-            <nav className="navbar shadow navbar-expand-lg navbar-light ">
+            <nav className="d-flex text-align-center navbar shadow navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -38,11 +38,11 @@ function NavBar() {
                             </Link>
                             <Link to='/espectadores' style={{textDecoration:'none'}}>
                                 <li className="nav-item ">
-                                    <p className="nav-link fw-bold" href="/spectators">PÚBLICO</p>
+                                    <p className="nav-link" href="/spectators">PÚBLICO</p>
                                 </li>
                             </Link>
                             <Link to='/seguridad' style={{textDecoration:'none'}}>
-                                <li className="nav-item d-flex">
+                                <li className="nav-item ">
                                     <p className="nav-link ">SEGURIDAD</p>
                                 </li>
                             </Link>
