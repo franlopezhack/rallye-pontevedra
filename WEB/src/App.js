@@ -24,7 +24,7 @@ function App() {
           <Route path="/espectadores" element={<Maps />} />
           <Route path="/releases" element={<Releases />} />
           <Route path="/releases/:id" element={<ReleasesDetail/>} />
-          <Route path="/new-release" element={<NewRelease/>} />
+          <Route path="/new-release-formData" element={<NewRelease/>} />
           <Route path="/participantes" element={<Participants/>} />
           <Route path="/espectadores" element={<Spectators/>} />
           <Route path="/seguridad" element={<RaceRegulations/>} />
