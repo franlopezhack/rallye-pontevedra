@@ -5,7 +5,7 @@ import img3 from '../../assets/images/CarouselImages/img3.JPG'
 
 function HomeCarousel() {
     return (
-        <div className="home-carousel mb-5">
+        <div className="home-carousel mb-1">
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">

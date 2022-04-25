@@ -6,6 +6,12 @@
   color: white;
 }
 
+.footer-list img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+}
+
 @media (min-width:820px) {
   .nav p {
     margin-top: 15px;
