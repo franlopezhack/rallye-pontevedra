@@ -2,7 +2,6 @@ import HomeCarousel from "../../components/HomeCarrousel/HomeCarousel"
 import BulletinBoard from "../../components/BulletinBoard/BullentinBoard"
 import './Home.css'
 import LastReleases from "../../components/LastReleases/LastReleases"
-import { Link } from "react-router-dom"
 import sanxenxo from '../../assets/images/Corporaciones/MSANXENXO.L.COLOR_1-removebg-preview.png'
 import meaño from '../../assets/images/Corporaciones/meaño-removebg-preview.png'
 import cerdedo from '../../assets/images/Corporaciones/cerdedo-removebg-preview.png'
@@ -13,6 +12,7 @@ import xunta from '../../assets/images/Corporaciones/xunta.png'
 import deporte from '../../assets/images/Corporaciones/deporte-removebg-preview.png'
 import xacobeo from '../../assets/images/Corporaciones/xacobeo-removebg-preview.png'
 import Marquee from 'react-fast-marquee'
+import { Link } from "react-router-dom"
 
 
 
@@ -24,44 +24,44 @@ function Home() {
                 <HomeCarousel />
             </div>
             <div>
-                <Marquee  pauseOnHover={true} gradientWidth={50} speed={40} >
+                <Marquee pauseOnHover={true} gradientWidth={50} speed={40} >
                     <section className='nav-section'>
                         <ul className='nav-list d-flex flex-wrap justify-content-between'>
-                            <Link to='/' className='image-wrapper me-4 mb-5'>
+                            <a href='https://www.sanxenxo.es/index.php/es/' className='image-wrapper me-4 mb-5'>
                                 <img src={sanxenxo} alt={sanxenxo} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='http://www.concellodemeano.com/ga/inicio' className='image-wrapper me-4'>
                                 <img src={meaño} alt={meaño} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='http://www.cerdedo-cotobade.gal/es/' className='image-wrapper me-4'>
                                 <img src={cerdedo} alt={cerdedo} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='https://campolameiro.org/es/' className='image-wrapper me-4'>
                                 <img src={campolameiro} alt={campolameiro} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='https://morana.org/' className='image-wrapper me-4'>
                                 <img src={moraña} alt={moraña} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='https://deporte.xunta.gal/' className='image-wrapper me-4'>
                                 <img src={deporte} alt={deporte} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='https://www.depo.gal/es/' className='image-wrapper me-4'>
                                 <img src={deputacion} alt={deputacion} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='https://www.xunta.gal/portada' className='image-wrapper me-4'>
                                 <img src={xunta} alt={xunta} />
-                            </Link>
+                            </a>
 
-                            <Link to='/' className='image-wrapper me-4'>
+                            <a href='/' className='image-wrapper me-4'>
                                 <img src={xacobeo} alt={xacobeo} />
-                            </Link>
+                            </a>
 
                         </ul>
                     </section>
@@ -76,7 +76,6 @@ function Home() {
                         <p className="nav-link active " aria-current="page">Ultimas Noticias</p>
                     </Link>
                 </nav>
-
                 <LastReleases />
             </div>
         </div>
