@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.33dd3e22.css",
-    "main.js": "/static/js/main.e1738fc3.js",
+    "main.css": "/static/css/main.85ee123f.css",
+    "main.js": "/static/js/main.c21892e6.js",
     "static/media/img1.JPG": "/static/media/img1.8a199f678c8b17624b62.JPG",
     "static/media/img2.JPG": "/static/media/img2.7d023807c87ce9efda42.JPG",
     "static/media/img3.JPG": "/static/media/img3.a1599345fff6f2455aa8.JPG",
@@ -11,6 +11,7 @@
     "static/media/tiempos.png": "/static/media/tiempos.6b2f1ac7771d8ad490f2.png",
     "static/media/MSANXENXO.L.COLOR_1-removebg-preview.png": "/static/media/MSANXENXO.L.COLOR_1-removebg-preview.2895f90e533cb36064d5.png",
     "static/media/espectador.png": "/static/media/espectador.619e51838ab5afc5770a.png",
+    "static/media/logo-escudería.png": "/static/media/logo-escudería.bea11d6d4a72cf63f82b.png",
     "static/media/xacobeo-removebg-preview.png": "/static/media/xacobeo-removebg-preview.d73e9d0bbf06556f0cd7.png",
     "static/media/cerdedo-removebg-preview.png": "/static/media/cerdedo-removebg-preview.1688ae46eaad611107e1.png",
     "static/media/campo-lameiro.png": "/static/media/campo-lameiro.f88e4f6d505406c42bb0.png",
@@ -19,11 +20,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.33dd3e22.css.map": "/static/css/main.33dd3e22.css.map",
-    "main.e1738fc3.js.map": "/static/js/main.e1738fc3.js.map"
+    "main.85ee123f.css.map": "/static/css/main.85ee123f.css.map",
+    "main.c21892e6.js.map": "/static/js/main.c21892e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.33dd3e22.css",
-    "static/js/main.e1738fc3.js"
+    "static/css/main.85ee123f.css",
+    "static/js/main.c21892e6.js"
   ]
 }
