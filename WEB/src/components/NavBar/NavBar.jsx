@@ -1,6 +1,7 @@
 import './NavBar.css'
 import placa from '../../assets/logo/placa.png'
 import federacion from '../../assets/logo/federacion.png'
+import banner from '../../assets/logo/banner.JPG'
 import { Link } from 'react-router-dom'
 
 function NavBar() {
@@ -52,7 +53,7 @@ function NavBar() {
             <Link to='/'>
                 <div className='header'>
                     <section id='banner'>
-                        <img className='img1' src={federacion} alt={federacion} />
+                        <img className='img1' src={banner} alt={banner} />
                         <img className='img2' src={placa} alt={placa} />
                         <img className='img3' src={federacion} alt={federacion} />
                     </section>

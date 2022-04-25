@@ -30,7 +30,7 @@ function Footer() {
                         </article>
 
                         <article className='me-4'>
-                            <img src={meaño} alt={campolameiro} />
+                            <img src={campolameiro} alt={campolameiro} />
                         </article>
 
                         <article className='me-4'>
