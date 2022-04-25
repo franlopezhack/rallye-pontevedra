@@ -7,7 +7,8 @@
 }
 
 @media (min-width:820px) {
-  .nav a {
+  .nav p {
+    margin-top: 15px;
     font-size: 25px;
   }
 }
