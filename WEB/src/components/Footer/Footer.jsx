@@ -1,4 +1,5 @@
 import './Footer.css'
+import escudería from '../../assets/logo/logo-escudería.png'
 
 
 function Footer() {
@@ -19,13 +20,11 @@ function Footer() {
                         </div>
 
                     </div>
-                    <p className='copy'>Rally de Pontevedra 2022 &copy;</p>
-
-
+                    <div className='copy-logo d-flex justify-content-between'>
+                        <strong className='copy mt-5'>Rally de Pontevedra 2022 &copy;</strong>
+                        <img className='logo-esc' src={escudería} alt={escudería} />
+                    </div>
                 </footer>
-
-
-
             </div>
         </>
 
