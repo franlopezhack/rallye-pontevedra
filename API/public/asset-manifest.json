@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22f19777.css",
-    "main.js": "/static/js/main.f2b6100c.js",
+    "main.js": "/static/js/main.f28c2dca.js",
     "static/media/CampoLameiro.svg.png": "/static/media/CampoLameiro.svg.607bc48a545d76e5e2b0.png",
     "static/media/img1.jpeg": "/static/media/img1.7190c8424d4c1120b105.jpeg",
     "static/media/placa.png": "/static/media/placa.ca58d6837dee2eec7b8a.png",
@@ -18,10 +18,10 @@
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
     "main.22f19777.css.map": "/static/css/main.22f19777.css.map",
-    "main.f2b6100c.js.map": "/static/js/main.f2b6100c.js.map"
+    "main.f28c2dca.js.map": "/static/js/main.f28c2dca.js.map"
   },
   "entrypoints": [
     "static/css/main.22f19777.css",
-    "static/js/main.f2b6100c.js"
+    "static/js/main.f28c2dca.js"
   ]
 }
