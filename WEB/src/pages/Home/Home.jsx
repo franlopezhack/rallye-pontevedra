@@ -71,8 +71,8 @@ function Home() {
                 <BulletinBoard />
             </div>
             <div>
-                <nav className="nav justify-content-center align-content-center mb-3">
-                    <Link to='/releases'>
+                <nav className="nav  align-content-center mb-3">
+                    <Link to='/releases' style={{textDecoration:"none"}} >
                         <p className="nav-link active " aria-current="page">Ultimas Noticias</p>
                     </Link>
                 </nav>

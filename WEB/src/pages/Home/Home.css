@@ -2,6 +2,8 @@
   height: 30px;
   background-color: #2089cf;
 }
+
+
 .nav-link{
   color: white;
 }
@@ -15,6 +17,7 @@
 .image-wrapper img{
  margin: 0px 30px;
 }
+
 
 @media (min-width:820px) {
   .nav p {
