@@ -4,31 +4,25 @@ import { useNavigate } from "react-router";
 
 
 
+
 function NewRelease() {
 
     const navigate = useNavigate()
-    const [data, setData] = useState({
-        title: '',
-        description: '',
-        image: ''
-
-    });
+    
 
     const [error, setError] = useState(null)
 
-    function handleChange(e) {
    
-        setData({
-            ...data,
-            [e.target.id]: e.target.value
-        })
-       
-    }
 
 
     function handleSubmit(e) {
         e.preventDefault();
-        newRelease(data)
+
+        newRelease({
+            title: e.target.title.value,
+            description: e.target.description.value,
+            avatar: e.target.avatar.files[0]
+        })
             .then(() => {
                 navigate('/releases')
             })
@@ -36,7 +30,7 @@ function NewRelease() {
                 setError(error.response.data.message)
             })
     }
-console.log(data)
+
 
     return (
 
@@ -45,45 +39,23 @@ console.log(data)
             <form className="" onSubmit={handleSubmit}>
 
                 <div className="mb-3">
+                Title
                     {error && <div className="alert alert-danger">{error}</div>}
-                    <label htmlFor="title" className="form-label">
-                        Título noticia
-                    </label>
-                    <input
-                        type="title"
-                        className="form-control"
-                        id="title"
-                        value={data.title}
-                        onChange={handleChange}
-                    />
+                    <input type="text" name="title"/>
                 </div>
 
                 <div className="mb-3">
-                    <label htmlFor="description" className="form-label">
-                        Descripcion noticia
-                    </label>
-                    <input
-                        type="desciption"
-                        className="form-control"
-                        id="description"
-                        value={data.description}
-                        onChange={handleChange}
-                    />
+                Description
+                    <input type="text" name="description"/>
+                    {error?.description}
                 </div>
 
                 <div className="mb-3">
-                    <label htmlFor="image" className="form-label">
-                       Imagen noticia
-                    </label>
-                    <input
-                        type='file'
-                        className="form-control"
-                        id="image"
-                        value={data.avatar}
-                        onChange={handleChange}
-                    />
+                Photo
+                    <input type='file' name="avatar"/>
+                    {error?.description}
                 </div>
-            
+
                 <hr />
                 <button type="submit" className="btn btn-danger col-12 mb-1">
                     Nueva Noticia

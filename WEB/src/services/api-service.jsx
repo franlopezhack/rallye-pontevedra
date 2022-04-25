@@ -28,7 +28,7 @@ export function newRelease(release) {
 const data = new FormData()
 
 data.append('title', release.title)
-data.append('descirption', release.description)
+data.append('description', release.description)
 data.append('avatar', release.avatar)
 
   return http.post('/api/releases', data)
