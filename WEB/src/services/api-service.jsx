@@ -25,7 +25,13 @@ export function getMaps() {
 }
 
 export function newRelease(release) {
-  return http.post('/api/releases', release)
+const data = new FormData()
+
+data.append('title', release.title)
+data.append('descirption', release.description)
+data.append('avatar', release.avatar)
+
+  return http.post('/api/releases', data)
 }
 
 export function getReleases() {

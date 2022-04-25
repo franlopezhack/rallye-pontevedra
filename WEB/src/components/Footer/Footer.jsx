@@ -4,10 +4,10 @@ import './Footer.css'
 function Footer() {
     return (
         <>
-        <hr/>
+            <hr />
             <div className="footer">
-            
-                
+
+
                 <footer className=''>
                     <div className='footer-container d-flex flex-wrap justify-content-center '>
 
@@ -20,9 +20,11 @@ function Footer() {
 
                     </div>
                     <p className='copy'>Rally de Pontevedra 2022 &copy;</p>
+
+
                 </footer>
 
-           
+
 
             </div>
         </>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5516d9ef.css",
-    "main.js": "/static/js/main.c7cc9bf0.js",
+    "main.css": "/static/css/main.33dd3e22.css",
+    "main.js": "/static/js/main.e1738fc3.js",
     "static/media/img1.JPG": "/static/media/img1.8a199f678c8b17624b62.JPG",
     "static/media/img2.JPG": "/static/media/img2.7d023807c87ce9efda42.JPG",
     "static/media/img3.JPG": "/static/media/img3.a1599345fff6f2455aa8.JPG",
@@ -17,14 +17,13 @@
     "static/media/deporte-removebg-preview.png": "/static/media/deporte-removebg-preview.def4942b264e56173650.png",
     "static/media/meaño-removebg-preview.png": "/static/media/meaño-removebg-preview.49f45fd00ad70af18554.png",
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
-    "static/media/federacion.png": "/static/media/federacion.b122daa1cbf822a766cb.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.5516d9ef.css.map": "/static/css/main.5516d9ef.css.map",
-    "main.c7cc9bf0.js.map": "/static/js/main.c7cc9bf0.js.map"
+    "main.33dd3e22.css.map": "/static/css/main.33dd3e22.css.map",
+    "main.e1738fc3.js.map": "/static/js/main.e1738fc3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5516d9ef.css",
-    "static/js/main.c7cc9bf0.js"
+    "static/css/main.33dd3e22.css",
+    "static/js/main.e1738fc3.js"
   ]
 }

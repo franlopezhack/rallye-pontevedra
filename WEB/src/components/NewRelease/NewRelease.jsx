@@ -79,7 +79,7 @@ console.log(data)
                         type='file'
                         className="form-control"
                         id="image"
-                        value={data.image}
+                        value={data.avatar}
                         onChange={handleChange}
                     />
                 </div>

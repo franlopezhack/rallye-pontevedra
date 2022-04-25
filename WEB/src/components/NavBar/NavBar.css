@@ -72,13 +72,7 @@
     }
 }
 
-.img3{
-    width: 50%;
-    position: absolute;
-    top: 65%;
-    left: 30%;
-    transform: translateX(-50%) translateY(-50%);
-}
+
 @media(min-width:1024px){
     .img3{
         width: 19%;
