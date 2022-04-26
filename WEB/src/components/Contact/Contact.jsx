@@ -20,7 +20,7 @@ function Contact() {
             </div>
             <div className='inscription mb-5'>
                 <h3>PRENSA</h3>
-                <a href='mailto:Prensarallyepontevedra@gmail.com'>inscripciones@rallyedepontevedra.es</a>
+                <a href='mailto:prensarallyepontevedra@gmail.com'>prensarallyepontevedra@gmail.com</a>
             </div>
 
 
