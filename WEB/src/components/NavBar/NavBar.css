@@ -65,6 +65,13 @@
     left: 80%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+@media(max-width:1024px){
+    .img1{
+        height: 150px;
+    }
+}
+
 @media(min-width:1024px){
     .img2{
         width: 19%;
@@ -79,6 +86,7 @@
         margin-top: 10px;
     }
 }
+
 
 
 .navbar a:hover{

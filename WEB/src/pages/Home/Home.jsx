@@ -24,7 +24,7 @@ function Home() {
                 <HomeCarousel />
             </div>
             <div>
-                <Marquee pauseOnHover={true} gradientWidth={50} speed={40} >
+                <Marquee pauseOnHover={true} gradientWidth={50} speed={40} className='maquee' >
                     <section className='nav-section'>
                         <ul className='nav-list d-flex flex-wrap justify-content-between'>
                             <a href='https://www.sanxenxo.es/index.php/es/' className='image-wrapper me-4 mb-5'>

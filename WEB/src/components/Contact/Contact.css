@@ -1,8 +1,4 @@
-.info-text{
-    border: 3px solid red;
-    width:fit-content;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-   align-items:baseline;
+.contact a{
+ text-decoration: none;
+ color: black;
 }

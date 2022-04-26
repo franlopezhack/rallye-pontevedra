@@ -21,5 +21,19 @@
     width: 20%;
 }
 
+@media(max-width:1024px){
+    .copy-logo{
+       flex-direction: column;
+    }
+}
+
+@media(max-width:1024px){
+    .logo-esc{
+        margin-top: 30px;
+        width: 180px;
+        height: 60px;
+    }
+}
+
 
 
