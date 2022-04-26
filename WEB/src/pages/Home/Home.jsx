@@ -1,4 +1,3 @@
-import HomeCarousel from "../../components/HomeCarrousel/HomeCarousel"
 import BulletinBoard from "../../components/BulletinBoard/BullentinBoard"
 import './Home.css'
 import LastReleases from "../../components/LastReleases/LastReleases"
@@ -19,10 +18,6 @@ import { Link } from "react-router-dom"
 function Home() {
     return (
         <div className="home">
-
-            <div className="">
-                <HomeCarousel />
-            </div>
             <div>
                 <Marquee pauseOnHover={true} gradientWidth={50} speed={40} className='maquee' >
                     <section className='nav-section'>

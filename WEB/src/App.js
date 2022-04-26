@@ -13,11 +13,13 @@ import Spectators from "./components/Spectators/Spectators";
 import RaceRegulations from "./components/RaceRegulations/RaceRegulations";
 import Contact from "./components/Contact/Contact";
 import Press from "./components/Press/Press";
+import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <NavBar />
+      <HomeCarousel/>
       <div className="container p-5">
         <Routes>
           <Route path="/" element={<Home />} />
