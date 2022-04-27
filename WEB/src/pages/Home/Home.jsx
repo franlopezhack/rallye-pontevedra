@@ -12,12 +12,14 @@ import deporte from '../../assets/images/Corporaciones/deporte-removebg-preview.
 import xacobeo from '../../assets/images/Corporaciones/xacobeo-removebg-preview.png'
 import Marquee from 'react-fast-marquee'
 import { Link } from "react-router-dom"
+import HomeCarousel from "../../components/HomeCarrousel/HomeCarousel"
 
 
 
 function Home() {
     return (
         <div className="home">
+         <HomeCarousel/>
             <div>
                 <Marquee pauseOnHover={true} gradientWidth={50} speed={40} className='maquee' >
                     <section className='nav-section'>

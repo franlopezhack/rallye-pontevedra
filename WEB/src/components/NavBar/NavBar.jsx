@@ -3,12 +3,10 @@ import placa from '../../assets/logo/placa.png'
 import banner from '../../assets/logo/banner.JPG'
 import { Link } from 'react-router-dom'
 
-
 function NavBar() {
     return (
 
         <>
-
             <nav className="d-flex text-align-center navbar shadow navbar-expand-lg navbar-light ">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,11 +14,6 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ">
-                        <Link to='/' style={{textDecoration:'none'}}>
-                                <li className="nav-item nav-placa ">
-                                    <img src={placa} alt={placa} />
-                                </li>
-                            </Link>
                             <Link to='/releases' style={{textDecoration:'none'}}>
                                 <li className="nav-item ">
                                     <p className="nav-link active " aria-current="page">NOTICIAS</p>
@@ -55,8 +48,15 @@ function NavBar() {
                     </div>
                 </div>
             </nav>
+            <Link to='/'>
+                <div className='header'>
+                    <section id='banner'>
+                        <img className='img1' src={banner} alt={banner} />
+                        <img className='img2' src={placa} alt={placa} />
+                    </section>
+                </div>
+            </Link>
         </>
     )
 }
-
 export default NavBar
