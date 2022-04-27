@@ -9,8 +9,8 @@ function Footer() {
             <div className="footer">
 
 
-                <footer className=''>
-                    <div className='footer-container d-flex flex-wrap justify-content-center '>
+                <footer className='p-5'>
+                    <div className='footer-container d-flex flex-wrap justify-content-center'>
 
                         <div className='media  d-flex text-align-center justify-content-evenly mb-5 mt-2'>
                             <a href="https://www.facebook.com/RallyePontevedra"><i className='fa fa-facebook'></i></a>
@@ -20,7 +20,7 @@ function Footer() {
                         </div>
 
                     </div>
-                    <div className='copy-logo d-flex justify-content-between mt-5 mb-5'>
+                    <div className='copy-logo d-flex justify-content-between mb-5'>
                         <strong className='copy mt-5'>Rally de Pontevedra 2022 &copy;</strong>
                         <img className='logo-esc' src={escudería} alt={escudería} />
                     </div>
