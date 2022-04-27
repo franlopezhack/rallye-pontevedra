@@ -7,7 +7,8 @@ function NavBar() {
     return (
 
         <>
-            <nav className="d-flex text-align-center navbar shadow navbar-expand-lg navbar-light ">
+        <div className='nav-home mb-1'>
+        <nav className="d-flex text-align-center navbar shadow navbar-expand-lg navbar-light">
                 <div className="container-fluid">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -53,6 +54,8 @@ function NavBar() {
                     </div>
                 </div>
             </nav>
+        </div>
+            
             {/* <Link to='/'>
                 <div className='header'>
                     <section id='banner'>
