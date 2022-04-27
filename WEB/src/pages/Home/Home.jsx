@@ -18,9 +18,8 @@ import { Link } from "react-router-dom"
 function Home() {
     return (
         <div className="home">
-
             <div>
-                <Marquee pauseOnHover={true} gradientWidth={50} speed={40} className='maquee' >
+                <Marquee pauseOnHover={true} gradientWidth={5} speed={40} className='maquee' >
                     <section className='nav-section'>
                         <ul className='nav-list d-flex flex-wrap justify-content-between'>
                             <a href='https://www.sanxenxo.es/index.php/es/' className='image-wrapper me-4 mb-5'>

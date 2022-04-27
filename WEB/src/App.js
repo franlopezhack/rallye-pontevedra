@@ -21,7 +21,7 @@ function App() {
       <NavBar />
       <HomeCarousel/>
     
-      <div className="p-5 container">
+      <div className="container p-5">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/espectadores" element={<Maps />} />
