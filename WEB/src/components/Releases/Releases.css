@@ -1,3 +1,8 @@
+.card{
+    width: 440px;
+    max-width: 440px;
+}
+
 .card-release h5{
     text-decoration: none;
 }
@@ -5,6 +10,8 @@
 .card-release:hover{
      box-shadow: 0 0 6px #0d273a;
  }
+
+
 
 
  .text-release{
