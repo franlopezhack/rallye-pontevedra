@@ -1,22 +1,25 @@
 .carousel-item img{
     object-fit:fill;
+    margin-top: -190px;
 }
+
 
 @media (min-width: 1024px) {
     .carousel-item {
-      height: 400px;
+      margin-top: 65px;
+      height: 500px;
       
     }
   }
 
   @media (max-width: 1024px) {
     .carousel-item {
-      height: 130px;
+      height: 230px;
     }
   }
 
   @media (max-width:1024px){
     .home-carousel{
-      margin-top: -40px;
+      margin-top: 55px;
     }
   }
