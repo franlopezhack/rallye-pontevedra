@@ -3,6 +3,40 @@
     margin-top: -130px;
 }
 
+.text-animation{
+  position: absolute;
+  right: 15%;
+  bottom: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.text-animation h2 {
+  animation-duration: 3s;
+  animation-name: text-animation;
+  color: red;
+  font-size: 520%;
+  margin-bottom: 300px;
+}
+
+
+
+@keyframes text-animation {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 
 @media (min-width: 1024px) {
     .carousel-item {
