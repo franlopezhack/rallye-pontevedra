@@ -22,7 +22,7 @@ function App() {
       <NavBar />
       <HomeCarousel/>
     
-      <div className="container p-5">
+      <div className="container p-2">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/espectadores" element={<Maps />} />

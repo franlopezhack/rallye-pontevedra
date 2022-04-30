@@ -8,17 +8,17 @@ function BulletinBoard() {
     return (
         <div className='bulletin-board justify-content-center'>
             <Link to='/anuncios'>
-                <article className='mb-2 m-1'>
+                <article className='m-1'>
                     <img src={anuncios}  alt={anuncios} />
                 </article>
             </Link>
           
-            <a href='/' className='mb-2 m-1'>
+            <a href='/' className='m-1'>
                 <img src={espectador} alt={espectador} />
             </a>
          
             
-            <a href='http://temposfga.es/' className='mb-2 m-1'>
+            <a href='http://temposfga.es/' className='m-1'>
                 <img src={tiempos} alt={tiempos} />
             </a>
         </div>

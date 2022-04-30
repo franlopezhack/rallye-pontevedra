@@ -24,9 +24,19 @@
 
 
 @media (min-width:820px) {
-  .nav p {
+  .nav{
     margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 25px;
+    color: white;
+  }
+}
+@media (max-width:1024px) {
+  .nav{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: white;
   }
 }
 
