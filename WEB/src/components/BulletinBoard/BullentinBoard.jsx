@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 function BulletinBoard() {
     return (
-        <div className='bulletin-board d-flex flex-wrap justify-content-center'>
+        <div className='bulletin-board justify-content-center'>
             <Link to='/anuncios'>
                 <article className='mb-2 m-1'>
                     <img src={anuncios}  alt={anuncios} />

@@ -31,53 +31,14 @@
  width: 20%;
 }
 
+@media(min-width:1024px){
+    .nav-item img{
+        width: 15%;
+       }
+}
+
+
 .navbar button{
     color: white;
 }
 
-#banner{
-    position: relative;
-}
-@media(max-width:1024px) {
-    #banner{
-        width: 100%;
-    }
-}
-.img1{
-    height: 200px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    filter: opacity(0.2) drop-shadow(0 0 0 rgba(245, 242, 242, 0.998)); 
-}
-.img2{
-    width: 30%;
-    position: absolute;
-    top: 60%;
-    left: 80%;
-    transform: translateX(-50%) translateY(-50%);
-}
-@media(max-width:1024px){
-    .img1{
-        height: 150px;
-    }
-}
-@media(min-width:1024px){
-    .img2{
-        width: 19%;
-        margin-top: 10px;
-    }
-}
-@media(min-width:1024px){
-    .img3{
-        width: 19%;
-        margin-top: 10px;
-    }
-}
-.navbar a:hover{
-    background:rgba(255,255,255,0.5);
-}
-/* .navbar p:hover{
-    background:rgb(233, 14, 14);
-} */

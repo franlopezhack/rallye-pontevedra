@@ -3,3 +3,17 @@
     max-width: 280px;
     object-fit: cover;
 }
+
+.bulletin-board{
+    display: flex;
+    flex-direction: column;
+} 
+
+
+@media(max-width:1024px){
+    .bulletin-board{
+        display: flex;
+        flex-direction: row;
+        width: 295px;
+    } 
+}

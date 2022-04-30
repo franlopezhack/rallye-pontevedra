@@ -1,12 +1,13 @@
 .card{
-    width: 450px;
     max-width: 450px;
+    width: 450px; 
 }
 
 @media(max-width:1024px){
     .card{
-        width: 300px;
+        margin-left: 1px;
         max-width: 300px;
+        width: 290px;
     }
 }
 
@@ -18,15 +19,12 @@
      box-shadow: 0 0 6px #0d273a;
  }
 
-
-
-
  .text-release{
      color: black;
  }
 
  #img-card img{
-     width: 100%;
      height: 100%;
-    object-fit: cover;
- }
+     object-fit: cover;
+     width: 100%;
+ } 

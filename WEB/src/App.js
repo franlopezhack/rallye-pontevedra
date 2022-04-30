@@ -15,6 +15,7 @@ import Contact from "./components/Contact/Contact";
 import Press from "./components/Press/Press";
 import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
 
+
 function App() {
   return (
     <div className="">
@@ -25,7 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/espectadores" element={<Maps />} />
-          <Route path="/releases" element={<Releases />} />
+          <Route path="/noticias" element={<Releases />} />
           <Route path="/releases/:id" element={<ReleasesDetail/>} />
           <Route path="/new-release" element={<NewRelease/>} />
           <Route path="/participantes" element={<Participants/>} />
