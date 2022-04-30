@@ -23,6 +23,14 @@ function Footer() {
                     <div className='copy-logo d-flex justify-content-between mb-5'>
                         <strong className='copy mt-5'>Rally de Pontevedra 2022 &copy;</strong>
                         <img className='logo-esc' src={escudería} alt={escudería} />
+                        <div>
+                        <ul className='footer-adress'>
+                            <li>FONTOIRA Nº42</li>
+                            <li>36960</li>
+                            <li>SANXENXO    PONTEVEDRA</li>
+                            <li>TLFN.: 615562578</li>
+                        </ul>
+                        </div>
                     </div>
                 </footer>
             </div>

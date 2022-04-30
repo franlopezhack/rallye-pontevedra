@@ -113,13 +113,15 @@ function Home() {
                 <BulletinBoard />
             </div>
             <div>
-                <nav className="nav d-flex justify-content-center">         
-                        <p className="d-flex">Ultimas Noticias</p>           
+                <nav className="nav d-flex justify-content-center">
+                    <p className="d-flex">Ultimas Noticias</p>
                 </nav>
                 <LastReleases />
-                <Link to='/noticias'>
-                    <h1 className="btn-noticias btn">Todas las noticias</h1>
-                </Link>
+                <div className="d-flex justify-content-end">
+                    <Link to='/noticias'>
+                        <h1 className="btn-noticias btn me-5">Todas las noticias</h1>
+                    </Link>
+                </div>
             </div>
         </div>
     )
