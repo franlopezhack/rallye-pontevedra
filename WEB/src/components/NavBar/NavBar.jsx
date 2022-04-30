@@ -15,6 +15,11 @@ function NavBar() {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarNav">
                         <ul className="navbar-nav ">
+                        <Link to='/' style={{ textDecoration: 'none' }}>
+                                <li className="nav-item ">
+                                    <p className="nav-link active " aria-current="page">INICIO</p>
+                                </li>
+                            </Link>
                             <Link to='/noticias' style={{ textDecoration: 'none' }}>
                                 <li className="nav-item ">
                                     <p className="nav-link active " aria-current="page">NOTICIAS</p>
