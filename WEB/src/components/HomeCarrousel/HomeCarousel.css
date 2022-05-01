@@ -19,8 +19,20 @@
   animation-duration: 3s;
   animation-name: text-animation;
   color: red;
-  font-size: 520%;
-  margin-bottom: 270px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 320%;
+  font-weight: 700;
+  margin-bottom: 50px;
+  text-decoration: 1;
+  text-shadow: 1px 1px 1px rgb(68, 65, 65);
+}
+
+@media(max-width:1024px){
+  .text-animation h2 {
+    font-size: 120%;
+  font-weight: 400;
+  margin-bottom: 1px;
+  }
 }
 
 
