@@ -112,6 +112,11 @@ function Home() {
             <div>
                 <BulletinBoard />
             </div>
+            <div className="marquee-warning  mt-3">
+                <Marquee gradientWidth={4}>
+                    <h3 className=""> INSCRIPCIONES ABIERTAS: <small>puedes realizar la inscripción accediendo a la seccion PARTICIPANTES</small></h3>
+                </Marquee>
+            </div>
             <div>
                 <nav className="nav d-flex justify-content-center">
                     <p className="d-flex">Ultimas Noticias</p>
