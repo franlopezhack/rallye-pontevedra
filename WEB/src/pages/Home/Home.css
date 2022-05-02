@@ -26,14 +26,6 @@
   border: 2px solid red;
 }
 
-.marquee-warning h3::before{
-  content:'\0000a0 \0000a0 \0000a0 \0000a0  '
-}
-.marquee-warning h3::after{
-  content:'\0000a0 \0000a0 \0000a0 \0000a0  '
-}
-
-
 @media (min-width:820px) {
   .nav{
     margin-top: 15px;
