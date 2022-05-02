@@ -1,0 +1,9 @@
+.release-card{
+    width: 490px;
+}
+
+@media(max-width:1024px){
+    .release-card{
+        width: 450px;
+    }
+}

@@ -11,6 +11,7 @@ import xunta from '../../assets/images/Corporaciones/xunta.png'
 import deporte from '../../assets/images/Corporaciones/deporte-removebg-preview.png'
 import xacobeo from '../../assets/images/Corporaciones/xacobeo-removebg-preview.png'
 import Marquee from 'react-fast-marquee'
+import placa from '../../assets/logo/logo-escudería.png'
 import { Link } from "react-router-dom"
 // import ClocktDate from "../../components/MomentDate/MomentDate"
 // import { useEffect, useState } from "react"
@@ -109,11 +110,29 @@ function Home() {
                     timerMinutes={timerMinutes}
                     timerSeconds={timerSeconds} /> */}
             </div>
+            <div className="text-head d-flex justify-content-center">
+                <div className="text-end me-5">
+                    <h1 className="text-presi">
+                        "Después de 12 años de ausencia, en el año 2021 decidimos volver a sacar adelante
+                        un rallye que merecía una segunda oportunidad. Que lo hayamos conseguido y que en
+                        su primera reedición hayamos sido elegidos como mejor prueba organizada de ese año
+                        nos reafirma en que vamos por el camino correcto para seguir adelante con más ganas
+                        todavía y esperemos, durante muchos años mas."
+                    </h1>
+                    <small> <strong> Presidente:</strong>   José A. Otero Dominguez</small>
+                </div>
+                    <div>
+                    <h1 className="text-presentation">La escuderia Congotra Team Sanxenxo le da la bienvenida a la pagina web oficial de esta
+                    prueba puntuable para el Campenato de Rallyes de Galicia y de todas las copas de promoción que lo componen. </h1>
+                    <img className="placa-presentation" src={placa} alt={placa} />
+                    </div>
+                    
+            </div>
             <div>
                 <BulletinBoard />
             </div>
             <div className="marquee-warning  mt-3 text-center">
-                    <h3 className=""> INSCRIPCIONES ABIERTAS: <small>puedes realizar la inscripción accediendo a la seccion PARTICIPANTES</small></h3>         
+                <h3 className=""> INSCRIPCIONES ABIERTAS: <small>puedes realizar la inscripción accediendo a la seccion PARTICIPANTES</small></h3>
             </div>
             <div>
                 <nav className="nav d-flex justify-content-center">

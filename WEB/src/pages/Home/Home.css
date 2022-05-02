@@ -26,6 +26,43 @@
   border: 2px solid red;
 }
 
+.placa-presentation{
+  width: 250px;
+}
+
+.text-head{
+  display: flex;
+}
+
+
+.text-presentation{
+  color: grey;
+  font-size: 25px;
+  width: 400px;
+}
+
+.text-presi{
+  font-size: 25px;
+  font-style:oblique;
+  width: 400px;
+}
+
+@media(max-width:1024px){
+  .text-presentation{
+    color: grey;
+    font-size: 20px;
+    width: 100%;
+  }
+}
+
+@media(max-width:1024px){
+  .text-head{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 @media(max-width:1024px){
   .marquee-warning h3{
    font-size: 17px;
