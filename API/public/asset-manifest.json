@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1984e71e.css",
+    "main.css": "/static/css/main.e7a1117e.css",
     "main.js": "/static/js/main.bc3a77df.js",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
@@ -19,11 +19,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.1984e71e.css.map": "/static/css/main.1984e71e.css.map",
+    "main.e7a1117e.css.map": "/static/css/main.e7a1117e.css.map",
     "main.bc3a77df.js.map": "/static/js/main.bc3a77df.js.map"
   },
   "entrypoints": [
-    "static/css/main.1984e71e.css",
+    "static/css/main.e7a1117e.css",
     "static/js/main.bc3a77df.js"
   ]
 }
