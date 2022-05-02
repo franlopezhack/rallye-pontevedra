@@ -1,12 +1,20 @@
+
 .carousel-item img{
-    object-fit:fill;
     margin-top: -130px;
-    transition: all 0.5s;
-    transition: all 500ms ease;
 }
 
-.carousel-item img:hover {
- transform: scale(1.2);
+
+@media(min-width:1024px){
+  .carousel-item img {
+    transition: all 0.5s;
+    transition: all 500ms ease;
+  }
+}
+
+@media(min-width:1024px){
+  .carousel-item img:hover {
+    transform: scale(1.2);
+   } 
 }
 
 .text-animation{

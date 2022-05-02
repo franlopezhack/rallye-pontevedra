@@ -8,6 +8,11 @@
     transform: scale(1.1);
 }
 
+@media(min-width:1024px){
+    .bulletin-board img{
+      margin: 10px;
+    }
+}
 
 @media(max-width:1024px){
     .bulletin-board img{
