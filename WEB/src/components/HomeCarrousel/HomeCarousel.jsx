@@ -11,9 +11,9 @@ function HomeCarousel() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={img1} className="d-block w-100" alt={img1} />
-                        <div className='text-animation'>
+                        {/* <div className='text-animation'>
                             <h2>IV Rallye de Pontevedra 2022</h2>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="carousel-item">
                         <img src={img2} className="d-block w-100" alt={img2} />
