@@ -24,7 +24,7 @@ function Releases() {
 
     return (
         <>
-            <h1>Noticias</h1>
+            <h1 className="mt-5">Noticias</h1>
             <hr/>
             <div className="release-card d-flex flex-wrap justify-content-center">
                 {releases.map(release =>

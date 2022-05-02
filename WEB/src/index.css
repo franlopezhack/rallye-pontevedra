@@ -9,3 +9,12 @@
 section{
     width: 100%;
 }
+
+hr{
+    border:none;
+    border-top:3px dashed red;
+    color:red;
+    background-color:red;
+    height:1;
+    width:100%;
+ }

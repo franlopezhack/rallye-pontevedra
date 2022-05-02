@@ -26,12 +26,3 @@
      object-fit: cover;
      width: 100%;
  } 
-
- hr{
-    border:none;
-    border-top:1px dashed red;
-    color:red;
-    background-color:red;
-    height:1;
-    width:100%;
- }
