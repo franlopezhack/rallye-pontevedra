@@ -26,6 +26,12 @@
   border: 2px solid red;
 }
 
+@media(max-width:1024px){
+  .marquee-warning h3{
+   font-size: 17px;
+  }
+}
+
 @media (min-width:820px) {
   .nav{
     margin-top: 15px;
@@ -34,6 +40,7 @@
     color: white;
   }
 }
+
 @media (max-width:1024px) {
   .nav{
     margin-top: 5px;
@@ -42,9 +49,6 @@
     color: white;
   }
 }
-
-
-
 
 @media(max-width:1024px){
   .nav-list img {
