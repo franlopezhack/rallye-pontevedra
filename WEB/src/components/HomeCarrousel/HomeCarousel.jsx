@@ -2,6 +2,7 @@ import './HomeCarousel.css'
 import img1 from '../../assets/images/CarouselImages/img1.JPG'
 import img2 from '../../assets/images/CarouselImages/img2.JPG'
 import img3 from '../../assets/images/CarouselImages/img3.JPG'
+import placa from '../../assets/logo/placa.png'
 
 
 function HomeCarousel() {
@@ -11,9 +12,12 @@ function HomeCarousel() {
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src={img1} className="d-block w-100" alt={img1} />
-                        {/* <div className='text-animation'>
+                        <div className='text-animation'>
                             <h2>IV Rallye de Pontevedra 2022</h2>
-                        </div> */}
+                        </div>
+                        <div className='img-animation me-5'>
+                            <img src={placa} alt={placa} />
+                        </div>
                     </div>
                     <div className="carousel-item">
                         <img src={img2} className="d-block w-100" alt={img2} />
