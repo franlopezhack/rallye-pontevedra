@@ -48,7 +48,6 @@
   width: 70%;
   margin-bottom: 50px;
   margin-right: -300px;
-  text-shadow: 1px 1px 1px rgb(68, 65, 65);
 }
 
 @media(max-width:1024px){
@@ -75,6 +74,31 @@
   to {
     margin-left: 0%;
     width: 70%;
+  }
+}
+
+@media(max-width:1024px){
+
+
+  .img-animation img {
+    animation-duration: 4s;
+    animation-name: img-animation;
+    width: 30%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+
+
+  @keyframes img-animation {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 3%;
+      width: 30%;
+    }
   }
 }
 
