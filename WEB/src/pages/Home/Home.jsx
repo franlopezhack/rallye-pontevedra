@@ -111,7 +111,7 @@ function Home() {
                     timerSeconds={timerSeconds} /> */}
             </div>
             <div className="text-head d-flex justify-content-center">
-                <div className="text-end me-5">
+                <div className="text-end mb-5 p-5">
                     <h1 className="text-presi">
                         "Después de 12 años de ausencia, en el año 2021 decidimos volver a sacar adelante
                         un rallye que merecía una segunda oportunidad. Que lo hayamos conseguido y que en
@@ -119,20 +119,17 @@ function Home() {
                         nos reafirma en que vamos por el camino correcto para seguir adelante con más ganas
                         todavía y esperemos, durante muchos años mas."
                     </h1>
-                    <small> <strong> Presidente:</strong>   José A. Otero Dominguez</small>
+                    <small > <strong> Presidente:</strong>   José A. Otero Dominguez</small>
                 </div>
-                    <div>
-                    <h1 className="text-presentation">La escuderia Congotra Team Sanxenxo le da la bienvenida a la pagina web oficial de esta
-                    prueba puntuable para el Campenato de Rallyes de Galicia y de todas las copas de promoción que lo componen. </h1>
+                <div className="text-end p-5">
+                    <h1 className="text-presentation">La escuderìa Congostra Team Sanxenxo le da la bienvenida a la página web oficial de esta
+                        prueba puntuable para el Campenato de Rallyes de Galicia. </h1>
                     <img className="placa-presentation" src={placa} alt={placa} />
-                    </div>
-                    
+                </div>
+
             </div>
             <div>
                 <BulletinBoard />
-            </div>
-            <div className="marquee-warning  mt-3 text-center">
-                <h3 className=""> INSCRIPCIONES ABIERTAS: <small>puedes realizar la inscripción accediendo a la seccion PARTICIPANTES</small></h3>
             </div>
             <div>
                 <nav className="nav d-flex justify-content-center">

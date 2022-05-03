@@ -4,6 +4,6 @@
 
 @media(max-width:1024px){
     .release-card{
-        width: 450px;
+        width: 100%;
     }
 }
