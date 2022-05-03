@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.28fc01e4.css",
-    "main.js": "/static/js/main.cef1d4cd.js",
+    "main.css": "/static/css/main.f64c55cb.css",
+    "main.js": "/static/js/main.83dd9e4a.js",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
     "static/media/img3.JPG": "/static/media/img3.7917a9803ad5116a0e35.JPG",
-    "static/media/placa.png": "/static/media/placa.ca58d6837dee2eec7b8a.png",
+    "static/media/placa.png": "/static/media/placa.9371922fb0533e48b4e2.png",
     "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
     "static/media/tiempos.png": "/static/media/tiempos.6b2f1ac7771d8ad490f2.png",
     "static/media/MSANXENXO.L.COLOR_1-removebg-preview.png": "/static/media/MSANXENXO.L.COLOR_1-removebg-preview.2895f90e533cb36064d5.png",
@@ -19,11 +19,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.28fc01e4.css.map": "/static/css/main.28fc01e4.css.map",
-    "main.cef1d4cd.js.map": "/static/js/main.cef1d4cd.js.map"
+    "main.f64c55cb.css.map": "/static/css/main.f64c55cb.css.map",
+    "main.83dd9e4a.js.map": "/static/js/main.83dd9e4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.28fc01e4.css",
-    "static/js/main.cef1d4cd.js"
+    "static/css/main.f64c55cb.css",
+    "static/js/main.83dd9e4a.js"
   ]
 }
