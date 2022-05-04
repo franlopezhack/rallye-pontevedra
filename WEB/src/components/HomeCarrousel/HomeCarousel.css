@@ -5,6 +5,10 @@
     margin-top: -130px;
 }
 
+.img-3{
+  opacity: 0.8;
+}
+
 @media(min-width:1024px){
   .carousel-item img {
     transition: all 0.5s;
@@ -38,9 +42,8 @@
 
 .text-img2 h2{
   bottom: 40px;
-  color: red;
+  color: rgb(249, 249, 250);
   font-style:oblique ;
-  font-family:'Titillium Web', sans-serif;
   font-size: 320%;
   font-weight: 800;
   position: absolute;
@@ -69,6 +72,24 @@
   width: 30%;
   margin-bottom: 110px;
   margin-left: 10%;
+}
+
+@media(max-width:1024px){
+  .text-img2 img{
+    bottom: 10px;
+    width: 40%;
+    right: 2%;
+    z-index: 10;
+  }
+}
+
+@media(max-width:1024px){
+  .text-img2 h2{
+    bottom: 75px;
+    font-size: 100%;
+    font-weight: 600;
+    right: 10%;
+  }
 }
 
 @media(max-width:1024px){
