@@ -111,7 +111,7 @@ function Home() {
                     timerSeconds={timerSeconds} /> */}
             </div>
             <div className="text-head d-flex justify-content-center">
-                <div className="text-end mb-5 p-5">
+                <div className="text-end mb-1 p-4">
                     <h1 className="text-presi">
                         "Después de 12 años de ausencia, en el año 2021 decidimos volver a sacar adelante
                         un rallye que merecía una segunda oportunidad. Que lo hayamos conseguido y que en
@@ -121,7 +121,7 @@ function Home() {
                     </h1>
                     <small > <strong> Presidente:</strong>   José A. Otero Dominguez</small>
                 </div>
-                <div className="text-end p-5">
+                <div className="text-end p-4">
                     <h1 className="text-presentation">La escuderìa Congostra Team Sanxenxo le da la bienvenida a la página web oficial de esta
                         prueba puntuable para el Campenato de Rallyes de Galicia. </h1>
                     <img className="placa-presentation" src={placa} alt={placa} />

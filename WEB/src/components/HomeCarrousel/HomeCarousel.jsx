@@ -12,7 +12,7 @@ function HomeCarousel() {
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={img1} className="d-block w-100 " alt={img1} />
+                        <img src={img1} className="d-block w-100 " id='img-item' alt={img1} />
                         <div className='text-animation'>
                             <h2>IV Rallye de Pontevedra 2022</h2>
                         </div>
@@ -21,18 +21,16 @@ function HomeCarousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img3} className="d-block w-100 img-3 " alt={img2} />
+                        <img src={img3} className="d-block w-100 img-3 " id='img-item' alt={img2} />
                         <div className='text-img2'>
                         <img className='animate__animated animate__backInLeft animate__delay-2s animate__slow ' src={sanxenxo} alt={sanxenxo} />
                             <h2 className='animate__animated animate__bounceInDown animate__delay-1s animate__slow'>
-                            <div>#Sanxenxo,</div> 
-                            <div>algo mas</div> 
-                            <div>que sol y playa</div>
+                            #Sanxenxo, algo mas que sol y playa!
                             </h2>
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img2} className="d-block w-100 " alt={img3} />
+                        <img src={img2} className="d-block w-100" id='img-item' alt={img3} />
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

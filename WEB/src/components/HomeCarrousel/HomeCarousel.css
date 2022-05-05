@@ -2,7 +2,6 @@
 
 .carousel-item img{
     object-fit:fill;
-    margin-top: -130px;
 }
 
 .img-3{
@@ -160,19 +159,20 @@
 @media (min-width: 1024px) {
     .carousel-item {
       margin-top: 65px;
-      height: 500px;
+      height: 600px;
     }
   }
 
   @media (max-width: 1024px) {
     .carousel-item img {
-      margin-top: -45px;
+    
     }
   }
 
   @media (max-width: 1024px) {
-    .carousel-item {
-      height: 150px;
+    #img-item {
+      height: 580px;
+      object-fit: cover;
     }
   }
 
