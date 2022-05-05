@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd056edb.css",
-    "main.js": "/static/js/main.b7ce2e37.js",
+    "main.css": "/static/css/main.212fd408.css",
+    "main.js": "/static/js/main.b9e9dee8.js",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
     "static/media/placa.png": "/static/media/placa.9371922fb0533e48b4e2.png",
-    "static/media/foto ruta.jpeg": "/static/media/foto ruta.ee9b9fad8fceb4a3b838.jpeg",
+    "static/media/foto ruta.jpeg": "/static/media/foto ruta.887dcebdd464e58bb53a.jpeg",
     "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
     "static/media/tiempos.png": "/static/media/tiempos.6b2f1ac7771d8ad490f2.png",
     "static/media/MSANXENXO.L.COLOR_1-removebg-preview.png": "/static/media/MSANXENXO.L.COLOR_1-removebg-preview.2895f90e533cb36064d5.png",
@@ -19,11 +19,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.bd056edb.css.map": "/static/css/main.bd056edb.css.map",
-    "main.b7ce2e37.js.map": "/static/js/main.b7ce2e37.js.map"
+    "main.212fd408.css.map": "/static/css/main.212fd408.css.map",
+    "main.b9e9dee8.js.map": "/static/js/main.b9e9dee8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd056edb.css",
-    "static/js/main.b7ce2e37.js"
+    "static/css/main.212fd408.css",
+    "static/js/main.b9e9dee8.js"
   ]
 }
