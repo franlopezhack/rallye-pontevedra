@@ -14,7 +14,6 @@ import RaceRegulations from "./components/RaceRegulations/RaceRegulations";
 import Contact from "./components/Contact/Contact";
 import Press from "./components/Press/Press";
 import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
-import MyApp from "./components/Pdfs/Pdfs";
 
 
 function App() {
