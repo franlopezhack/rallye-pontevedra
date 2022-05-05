@@ -1,80 +1,37 @@
 
-
 .carousel-item img{
     object-fit:fill;
 }
 
-.img-3{
-  opacity: 0.8;
-}
-
-@media(min-width:1024px){
-  .carousel-item img {
-    transition: all 0.5s;
-    transition: all 500ms ease;
-  }
-}
-
-@media(min-width:1024px){
-  .carousel-item img:hover {
-    transform: scale(1.2);
-   } 
-}
-
-.text-animation{
-  position: absolute;
-  bottom: 20px;
-  left: 5%;
-  z-index: 10;
-}
-
-.text-animation h2 {
-  animation-duration: 1.5s;
-  animation-name: text-animation;
-  color: red;
-  font-family:'Titillium Web', sans-serif;
-  font-size: 320%;
-  font-weight: 700;
-  margin-bottom: 50px;
-  text-shadow: 1px 1px 1px rgb(68, 65, 65);
-}
-
-.text-img2 h2{
-  bottom: 40px;
+.text-img h2{
+  bottom: 290px;
   color: rgb(249, 249, 250);
-  font-style:oblique ;
   font-size: 320%;
   font-weight: 800;
   position: absolute;
-  right: 10%;
-  z-index: 10;
+  right: 20%;
+  text-shadow: 2px 2px 1px black;
+  z-index: 3;
 }
 
-.text-img2 img{
-  bottom: 220px;
-  width: 20%;
+.text-img img{
+  bottom: 50px;
+  width: 50%;
   position: absolute;
   right: 20%;
-  z-index: 10;
+  z-index: 3;
 }
 
-.img-animation{
+.placa-img img {
+  top: 30px;
+  width: 21%;
   position: absolute;
-  bottom: 20px;
-  right: 0%;
-  z-index: 2;
-}
-
-.img-animation img {
-  animation-duration: 1.5s;
-  animation-name: img-animation;
-  width: 30%;
-  margin-bottom: 110px;
-  margin-left: 10%;
+  right: 40%;
+  z-index: 3;
 }
 
 @media(max-width:1024px){
-  .text-img2 img{
+  .text-img img{
     bottom: 10px;
     width: 40%;
     right: 2%;
@@ -83,77 +40,38 @@
 }
 
 @media(max-width:1024px){
-  .text-img2 h2{
-    bottom: 75px;
-    font-size: 100%;
+  .text-img h2{
+    top: 150px;
+    font-size: 20px;
     font-weight: 600;
+    right: 5%;
+  }
+}
+
+@media(max-width:1024px){
+  #text-1 h2{
+    font-size: 25px;
     right: 10%;
   }
 }
 
 @media(max-width:1024px){
-  .text-animation h2 {
-    font-size: 120%;
-    font-weight: 400;
-    margin-bottom: 1px;
-  }
+ .text-img img{
+   top: 350px;
+   width: 90%;
+ }
 }
 
 @media(max-width:1024px){
-  .img-animation img {
-    width: 20%;
-    margin-bottom: 1px;
+  .placa-img img {
+    width: 35%;
+    top: 40px;
+    position:absolute;
+    z-index: 2;
+    left: 150px;
   }
 }
 
-@keyframes img-animation {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 10%;
-    width: 30%;
-  }
-}
-
-@media(max-width:1024px){
-
-
-  .img-animation img {
-    animation-duration: 2s;
-    animation-name: img-animation;
-    width: 30%;
-    margin-bottom: 30px;
-    margin-left: 10px;
-  }
-
-
-  @keyframes img-animation {
-    from {
-      margin-left: 100%;
-      width: 300%;
-    }
-  
-    to {
-      margin-left: 3%;
-      width: 30%;
-    }
-  }
-}
-
-@keyframes text-animation {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 
 @media (min-width: 1024px) {

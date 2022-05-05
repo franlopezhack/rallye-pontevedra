@@ -4,6 +4,7 @@ import img2 from '../../assets/images/CarouselImages/img2.JPG'
 import img3 from '../../assets/images/CarouselImages/foto ruta.jpeg'
 import placa from '../../assets/logo/placa.png'
 import sanxenxo from '../../assets/images/Corporaciones/MSANXENXO.L.COLOR_1-removebg-preview.png'
+import {Link} from 'react-router-dom'
 
 
 function HomeCarousel() {
@@ -12,25 +13,33 @@ function HomeCarousel() {
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src={img1} className="d-block w-100 " id='img-item' alt={img1} />
-                        <div className='text-animation'>
-                            <h2>IV Rallye de Pontevedra 2022</h2>
+                        <img src={img1} className="d-block w-100 animate__animated animate__fadeIn  animate__fast" id='img-item' alt={img1} />
+                        <div className='text-img' id='text-1'>
+                            <h2 className='animate__animated animate__fadeIn animate__delay-1s animate__slow' >IV Rallye de Pontevedra 2022</h2>
                         </div>
-                        <div className='img-animation me-5'>
+                        <div className='placa-img me-5'>
                             <img src={placa} alt={placa} />
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img3} className="d-block w-100 img-3 " id='img-item' alt={img2} />
-                        <div className='text-img2'>
-                        <img className='animate__animated animate__backInLeft animate__delay-2s animate__slow ' src={sanxenxo} alt={sanxenxo} />
-                            <h2 className='animate__animated animate__bounceInDown animate__delay-1s animate__slow'>
-                            #Sanxenxo, algo mas que sol y playa!
+                        <img src={img3} className="d-block w-100 img-3 animate__animated animate__fadeIn animate__fast" id='img-item' alt={img2} />
+                        <div className='text-img'>
+                            <Link to='/'>
+                                <img className='animate__animated animate__fadeIn animate__delay-2s animate__slower ' src={sanxenxo} alt={sanxenxo} />
+                            </Link>
+                            <h2 className='animate__animated animate__fadeIn animate__delay-1s animate__slow'>
+                                #Sanxenxo, algo mas que sol y playa!
                             </h2>
+                        </div>
+                        <div className='placa-img me-5'>
+                            <img src={placa} alt={placa} />
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src={img2} className="d-block w-100" id='img-item' alt={img3} />
+                        <img src={img2} className="d-block w-100 animate__animated animate__fadeIn  animate__fast" id='img-item' alt={img3} />
+                        <div className='placa-img me-5'>
+                            <img src={placa} alt={placa} />
+                        </div>
                     </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

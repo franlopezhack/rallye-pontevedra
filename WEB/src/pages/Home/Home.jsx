@@ -111,7 +111,7 @@ function Home() {
                     timerSeconds={timerSeconds} /> */}
             </div>
             <div className="text-head d-flex justify-content-center">
-                <div className="text-end mb-1 p-4">
+                <div className="text-end me-1  p-4">
                     <h1 className="text-presi">
                         "Después de 12 años de ausencia, en el año 2021 decidimos volver a sacar adelante
                         un rallye que merecía una segunda oportunidad. Que lo hayamos conseguido y que en

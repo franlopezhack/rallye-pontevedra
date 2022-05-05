@@ -31,8 +31,11 @@
 }
 
 .text-head{
+  width: 100% !important;
   display: flex;
+  background-color: rgba(103, 136, 136, 0.099);
 }
+
 
 
 .text-presentation{
