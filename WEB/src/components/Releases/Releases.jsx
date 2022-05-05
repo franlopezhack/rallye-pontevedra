@@ -12,7 +12,7 @@ function Releases() {
     useEffect(() => {
         getReleases()
             .then((releases) => {
-                setReleases(releases)
+                setReleases(releases.reverse())
             })
     }, []);
 

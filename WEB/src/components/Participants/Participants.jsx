@@ -1,5 +1,6 @@
 import './Participants.css'
 import placa from '../../assets/logo/placa.png'
+import MyApp from '../Pdfs/Pdfs'
 
 function Participants() {
 

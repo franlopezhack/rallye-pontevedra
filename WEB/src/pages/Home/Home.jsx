@@ -132,9 +132,9 @@ function Home() {
                 <BulletinBoard />
             </div>
             <div>
-                <nav className="nav d-flex justify-content-center">
-                    <p className="d-flex">Ultimas Noticias</p>
-                </nav>
+                <div className="p-news">
+                    <p>Ultimas Noticias</p>
+                </div>
                 <div className="d-flex justify-content-center">
                     <LastReleases />
                 </div>
