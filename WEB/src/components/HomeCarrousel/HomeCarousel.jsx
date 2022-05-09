@@ -4,7 +4,12 @@ import img2 from '../../assets/images/CarouselImages/img2.JPG'
 import img3 from '../../assets/images/CarouselImages/foto ruta.jpeg'
 import placa from '../../assets/logo/placa.png'
 import sanxenxo from '../../assets/images/Corporaciones/MSANXENXO.L.COLOR_1-removebg-preview.png'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import Exnor from '../../assets/images/MarqueeSponsors/Exnor.jpg'
+import Progreso from '../../assets/images/MarqueeSponsors/Garaje progreso.png'
+import Polymade from '../../assets/images/MarqueeSponsors/Polymade.jpg'
+import Vipeon from '../../assets/images/MarqueeSponsors/Vipeon.jpg'
+
 
 
 function HomeCarousel() {
@@ -16,6 +21,13 @@ function HomeCarousel() {
                         <img src={img1} className="d-block w-100 animate__animated animate__fadeIn  animate__fast" id='img-item' alt={img1} />
                         <div className='text-img' id='text-1'>
                             <h2 className='animate__animated animate__fadeIn animate__delay-1s animate__slow' >IV Rallye de Pontevedra 2022</h2>
+                        </div>
+                        <div className='imgs-sponsors-container'>
+                                <img className='img-sponsor-1' src={Progreso} alt={Progreso} />
+                                <img className='img-sponsor-2' src={Vipeon} alt={Vipeon} />
+                                <img className='img-sponsor-3' src={Polymade} alt={Polymade} />
+                                <img className='img-sponsor-4' src={Exnor} alt={Polymade} />
+                       
                         </div>
                         <div className='placa-img me-5'>
                             <img src={placa} alt={placa} />

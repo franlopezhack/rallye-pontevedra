@@ -4,14 +4,10 @@ import Ausavil from '../../assets/images/MarqueeSponsors/Ausavil.jpg'
 import Bamarti from '../../assets/images/MarqueeSponsors/Bamarti.jpg'
 import Bonpollo from '../../assets/images/MarqueeSponsors/Bonpollo.jpg'
 import Caetano from '../../assets/images/MarqueeSponsors/Caetano Formula.jpg'
-// import Exnor from '../../assets/images/MarqueeSponsors/Exnor.jpg'
 import Furgoline from '../../assets/images/MarqueeSponsors/Furgoline.jpg'
-// import Progreso from '../../assets/images/MarqueeSponsors/Garaje progreso.jpg.jpg'
 import Nautico from '../../assets/images/MarqueeSponsors/Nautico Sanxenxo.jpg'
-// import Polymade from '../../assets/images/MarqueeSponsors/Polymade.jpg'
 import Dakar from '../../assets/images/MarqueeSponsors/Racing Dakart.jpg'
 import RsAuto from '../../assets/images/MarqueeSponsors/RS Premium Car.jpg'
-// import Vipeon from '../../assets/images/MarqueeSponsors/Vipeon.jpg'
 
 
 function MarqueeSponsors() {

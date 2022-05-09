@@ -3,13 +3,41 @@
     object-fit:fill;
 }
 
+.imgs-sponsors-container img{
+  width: 20%;
+  position: absolute;
+  z-index: 3;
+}
+
+.img-sponsor-1{
+  width: 30% !important;
+  bottom: 5%;
+  left: 2%;
+}
+
+.img-sponsor-2{
+  width: 15% !important;
+  bottom: 50%;
+  left: 80%;
+}
+
+.img-sponsor-3{
+  bottom: 50%;
+  left: 5%;
+}
+
+.img-sponsor-4{
+  bottom: 15%;
+  left: 75%;
+}
+
 .text-img h2{
   bottom: 290px;
   color: rgb(249, 249, 250);
   font-size: 320%;
   font-weight: 800;
   position: absolute;
-  right: 20%;
+  right: 23%;
   text-shadow: 2px 2px 4px black;
   z-index: 3;
 }
