@@ -40,7 +40,7 @@ function HomeCarousel() {
                                 <img className='animate__animated animate__fadeIn animate__delay-2s animate__slower ' src={sanxenxo} alt={sanxenxo} />
                             </Link>
                             <h2 className='animate__animated animate__fadeIn animate__delay-1s animate__slow'>
-                                #Sanxenxo, algo mas que sol y playa!
+                                #Sanxenxo, mucho mas que sol y playa!
                             </h2>
                         </div>
                         <div className='placa-img me-5'>
