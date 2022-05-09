@@ -20,14 +20,14 @@ function HomeCarousel() {
                     <div className="carousel-item active">
                         <img src={img1} className="d-block w-100 animate__animated animate__fadeIn  animate__fast" id='img-item' alt={img1} />
                         <div className='text-img' id='text-1'>
-                            <h2 className='animate__animated animate__fadeIn animate__delay-1s animate__slow' >IV Rallye de Pontevedra 2022</h2>
+                            <h2 className='animate__animated animate__fadeIn animate__delay-2s animate__slower' >IV Rallye de Pontevedra 2022</h2>
                         </div>
                         <div className='imgs-sponsors-container'>
-                                <img className='img-sponsor-1' src={Progreso} alt={Progreso} />
-                                <img className='img-sponsor-2' src={Vipeon} alt={Vipeon} />
-                                <img className='img-sponsor-3' src={Polymade} alt={Polymade} />
-                                <img className='img-sponsor-4' src={Exnor} alt={Polymade} />
-                       
+                            <img className='animate__animated animate__fadeIn animate__delay-1s animate__slow img-sponsor-1' src={Progreso} alt={Progreso} />
+                            <img className='animate__animated animate__fadeIn animate__delay-1s animate__slow img-sponsor-2' src={Vipeon} alt={Vipeon} />
+                            <img className='animate__animated animate__fadeIn animate__delay-1s animate__slow img-sponsor-3' src={Polymade} alt={Polymade} />
+                            <img className='animate__animated animate__fadeIn animate__delay-1s animate__slow img-sponsor-4' src={Exnor} alt={Polymade} />
+
                         </div>
                         <div className='placa-img me-5'>
                             <img src={placa} alt={placa} />
