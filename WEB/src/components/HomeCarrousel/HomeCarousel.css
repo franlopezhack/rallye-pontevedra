@@ -24,7 +24,7 @@
 
 .placa-img img {
   top: 30px;
-  width: 21%;
+  width: 15%;
   position: absolute;
   right: 40%;
   z-index: 3;
@@ -77,8 +77,7 @@
 
 @media (min-width: 1024px) {
     .carousel-item {
-      margin-top: 65px;
-      height: 600px;
+      height: 500px;
     }
   }
 

@@ -14,12 +14,14 @@ import RaceRegulations from "./components/RaceRegulations/RaceRegulations";
 import Contact from "./components/Contact/Contact";
 import Press from "./components/Press/Press";
 import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
+import MarqueeSponsors from "./components/MarqueSponsors/MarqueSponsors";
 
 
 function App() {
   return (
     <div className="">
       <NavBar />
+      <MarqueeSponsors/>
       <HomeCarousel/>
     
       <div className="container p-2">

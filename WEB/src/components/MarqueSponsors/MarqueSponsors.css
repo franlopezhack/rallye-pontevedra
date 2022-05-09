@@ -1,0 +1,19 @@
+.sponsors-section{
+    height: 100px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    padding: 10px;
+    width: 100%;
+}
+
+.image-wrapper img {
+    height: 100px;
+    width: 100px;
+}
+
+@media(max-width:1024px){
+    .image-wrapper img {
+        height: 30px;
+        width: 50px;
+    } 
+}
