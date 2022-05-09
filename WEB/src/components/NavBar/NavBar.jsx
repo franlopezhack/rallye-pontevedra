@@ -37,12 +37,12 @@ function NavBar() {
                             </Link>
                             <Link to='/contacto' style={{ textDecoration: 'none' }}>
                                 <li className="nav-item">
-                                    <p className="nav-link " href='/contacto'>CONTACTO</p>
+                                    <p className="nav-link ">CONTACTO</p>
                                 </li>
                             </Link>
                             <Link to='/espectadores' style={{ textDecoration: 'none' }}>
                                 <li className="nav-item ">
-                                    <p className="nav-link" href="/spectators">PÚBLICO</p>
+                                    <p className="nav-link">PÚBLICO</p>
                                 </li>
                             </Link>
                             <Link to='/seguridad' style={{ textDecoration: 'none' }}>

@@ -1,12 +1,11 @@
 import './Participants.css'
 import placa from '../../assets/logo/placa.png'
-import MyApp from '../Pdfs/Pdfs'
 
 function Participants() {
 
     return (
         <>
-        <h1 className='mt-5'>Participantes</h1>
+        <h1 className='mt-5'>INFORMACIÓN PARTICIPANTES</h1>
         <hr/>
             <div className="info-participants mt-5 mb-5">
                 <div className='container-participants text-center'>

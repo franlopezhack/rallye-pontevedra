@@ -4,7 +4,7 @@ import './Contact.css'
 function Contact() {
     return (
         <div className="contact">
-            <h1>Contacto</h1>
+            <h1>CONTACTO</h1>
             <hr />
             <div className='d-flex row mt-5 mb-5'>
                 <h3>INFORMACIÓN GENERAL</h3>

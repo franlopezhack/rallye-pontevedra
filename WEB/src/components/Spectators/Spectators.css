@@ -1,8 +1,10 @@
-.info-text{
-    border: 3px solid red;
-    width:fit-content;
+.spectators{
+
     display: flex;
-    text-align: center;
     justify-content: center;
-   align-items:baseline;
+    margin-top: 5%;
+}
+
+.spectators img{
+    width: 70%;
 }

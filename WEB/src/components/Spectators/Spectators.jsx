@@ -1,10 +1,16 @@
 import './Spectators.css'
+import Info from '../../assets/images/Spectators/CARTELSEGURIDADPUBLICO.jpg'
+
 
 function Spectators() {
     return (
-        <div className="info-text">
-            <h1>Próximamente mas información</h1>
-        </div>
+        <>
+        <h1 className='mt-5'>INFORMACIÓN PARA ESPECTADORES</h1>
+        <hr/>
+            <div className='spectators'>
+                <img src={Info} alt={Info} />
+            </div>
+        </>
     )
 }
 
