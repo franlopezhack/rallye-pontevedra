@@ -1,3 +1,7 @@
+.home-carousel{
+  width: 100% !important;
+}
+
 .carousel-item img{
     object-fit:fill;
 }

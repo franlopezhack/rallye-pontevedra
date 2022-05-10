@@ -13,6 +13,8 @@ import xacobeo from '../../assets/images/Corporaciones/xacobeo-removebg-preview.
 import Marquee from 'react-fast-marquee'
 import placa from '../../assets/logo/logo-escudería.png'
 import { Link } from "react-router-dom"
+import HomeCarousel from "../../components/HomeCarrousel/HomeCarousel"
+import Sponsors from "../../components/MarqueSponsors/MarqueSponsors"
 // import ClocktDate from "../../components/MomentDate/MomentDate"
 // import { useEffect, useState } from "react"
 
@@ -57,6 +59,8 @@ function Home() {
 
     return (
         <div className="home">
+            <Sponsors />
+            <HomeCarousel />
             <div className='maquee'>
                 <Marquee pauseOnHover={true} gradientWidth={5} speed={40} >
                     <section className='nav-section'>
@@ -102,7 +106,7 @@ function Home() {
                 </Marquee>
             </div>
             <div>
-            
+
                 {/* <ClocktDate
                     timerDays={timerDays}
                     timerHours={timerHours}
@@ -120,7 +124,7 @@ function Home() {
                     </h1>
                     <small > <strong> Presidente:</strong>   José A. Otero Dominguez</small>
                 </div>
-                <div className="text-end p-4">
+                <div className="text-end p-4" >
                     <h1 className="text-presentation">La escuderìa Congostra Team Sanxenxo le da la bienvenida a la página web oficial de esta
                         prueba puntuable para el Campenato de Rallyes de Galicia. </h1>
                     <img className="placa-presentation" src={placa} alt={placa} />

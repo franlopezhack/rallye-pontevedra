@@ -1,7 +1,8 @@
 .sponsors-list{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-top: 30px;
     width: 100%;
 }
 

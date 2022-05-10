@@ -11,8 +11,8 @@ import Participants from "./components/Participants/Participants";
 import RaceRegulations from "./components/RaceRegulations/RaceRegulations";
 import Contact from "./components/Contact/Contact";
 import Press from "./components/Press/Press";
-import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
-import MarqueeSponsors from "./components/MarqueSponsors/MarqueSponsors";
+// import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
+// import MarqueeSponsors from "./components/MarqueSponsors/MarqueSponsors";
 import Spectators from "./components/Spectators/Spectators";
 
 
@@ -20,10 +20,10 @@ function App() {
   return (
     <div className="">
       <NavBar />
-      <MarqueeSponsors/>
-      <HomeCarousel/>
+      {/* <MarqueeSponsors/>
+      <HomeCarousel/> */}
     
-      <div className="container p-2">
+      <div className="mt-5 p-2">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/noticias" element={<Releases />} />

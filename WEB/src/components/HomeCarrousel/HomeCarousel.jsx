@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 import Exnor from '../../assets/images/MarqueeSponsors/Exnor.jpg'
 import Progreso from '../../assets/images/MarqueeSponsors/Garaje progreso.png'
 import Polymade from '../../assets/images/MarqueeSponsors/Polymade.jpg'
-import Vipeon from '../../assets/images/MarqueeSponsors/Vipeon.jpg'
+import Vipeon from '../../assets/images/MarqueeSponsors/Pegatina_Vipeon_6x6_page-0001-removebg-preview.png'
 
 
 

@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
     return (
-        <div className="contact">
+        <div className="contact mt-5">
             <h1>CONTACTO</h1>
             <hr />
             <div className='d-flex row mt-5 mb-5'>

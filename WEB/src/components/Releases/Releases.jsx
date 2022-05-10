@@ -26,7 +26,7 @@ function Releases() {
         <>
             <h1 className="mt-5">NOTICIAS</h1>
             <hr/>
-            <div className="release-card d-flex flex-wrap justify-content-center">
+            <div className="release-card">
                 {releases.map(release =>
                     <Link to={`/releases/${release.id}`} style={{ textDecoration: 'none' }} key={release.title}>
                         <div className="card card-release mb-5 me-5" >
