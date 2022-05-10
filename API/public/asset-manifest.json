@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.99c1557a.css",
-    "main.js": "/static/js/main.90327c76.js",
+    "main.css": "/static/css/main.2a76cd39.css",
+    "main.js": "/static/js/main.95bedd59.js",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
     "static/media/Bamarti.jpg": "/static/media/Bamarti.9b0b96204361cfa55256.jpg",
@@ -13,7 +13,7 @@
     "static/media/Ausavil.jpg": "/static/media/Ausavil.9f42c5d1eddb842ccd64.jpg",
     "static/media/Polymade.jpg": "/static/media/Polymade.193801a750be217922e8.jpg",
     "static/media/Nautico Sanxenxo.jpg": "/static/media/Nautico Sanxenxo.e6c2caf029483a3e0690.jpg",
-    "static/media/Vipeon.jpg": "/static/media/Vipeon.39e7612e1b047542c19c.jpg",
+    "static/media/Pegatina_Vipeon_6x6_page-0001-removebg-preview.png": "/static/media/Pegatina_Vipeon_6x6_page-0001-removebg-preview.f69137bd825a5c779dbd.png",
     "static/media/Racing Dakart.jpg": "/static/media/Racing Dakart.659df721a6fc501ecfd5.jpg",
     "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
     "static/media/tiempos.png": "/static/media/tiempos.6b2f1ac7771d8ad490f2.png",
@@ -32,11 +32,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.99c1557a.css.map": "/static/css/main.99c1557a.css.map",
-    "main.90327c76.js.map": "/static/js/main.90327c76.js.map"
+    "main.2a76cd39.css.map": "/static/css/main.2a76cd39.css.map",
+    "main.95bedd59.js.map": "/static/js/main.95bedd59.js.map"
   },
   "entrypoints": [
-    "static/css/main.99c1557a.css",
-    "static/js/main.90327c76.js"
+    "static/css/main.2a76cd39.css",
+    "static/js/main.95bedd59.js"
   ]
 }
