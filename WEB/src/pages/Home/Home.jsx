@@ -65,39 +65,39 @@ function Home() {
                 <Marquee pauseOnHover={true} gradientWidth={5} speed={40} >
                     <section className='nav-section'>
                         <ul className='nav-list d-flex flex-wrap justify-content-between'>
-                            <a href='https://www.sanxenxo.es/index.php/es/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://www.sanxenxo.es/index.php/es/' className='image-wrapper'>
                                 <img src={sanxenxo} alt={sanxenxo} />
                             </a>
 
-                            <a href='http://www.concellodemeano.com/ga/inicio' className='image-wrapper'>
+                            <a  target='_blank' rel="noreferrer" href='http://www.concellodemeano.com/ga/inicio' className='image-wrapper'>
                                 <img src={meaño} alt={meaño} />
                             </a>
 
-                            <a href='http://www.cerdedo-cotobade.gal/es/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='http://www.cerdedo-cotobade.gal/es/' className='image-wrapper'>
                                 <img src={cerdedo} alt={cerdedo} />
                             </a>
 
-                            <a href='https://campolameiro.org/es/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://campolameiro.org/es/' className='image-wrapper'>
                                 <img src={campolameiro} alt={campolameiro} />
                             </a>
 
-                            <a href='https://morana.org/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://morana.org/' className='image-wrapper'>
                                 <img src={moraña} alt={moraña} />
                             </a>
 
-                            <a href='https://deporte.xunta.gal/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://deporte.xunta.gal/' className='image-wrapper'>
                                 <img src={deporte} alt={deporte} />
                             </a>
 
-                            <a href='https://www.depo.gal/es/' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://www.depo.gal/es/' className='image-wrapper'>
                                 <img src={deputacion} alt={deputacion} />
                             </a>
 
-                            <a href='https://www.xunta.gal/portada' className='image-wrapper'>
+                            <a target='_blank' rel="noreferrer" href='https://www.xunta.gal/portada' className='image-wrapper'>
                                 <img src={xunta} alt={xunta} />
                             </a>
 
-                            <a href='/' className='image-wrapper me-4'>
+                            <a target='_blank' rel="noreferrer" href='/' className='image-wrapper me-4'>
                                 <img src={xacobeo} alt={xacobeo} />
                             </a>
 

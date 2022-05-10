@@ -18,7 +18,7 @@ function BulletinBoard() {
             </a>
          
             
-            <a href='http://temposfga.es/' className='m-1'>
+            <a  target='_blank' rel="noreferrer" href='http://temposfga.es/' className='m-1'>
                 <img src={tiempos} alt={tiempos} />
             </a>
         </div>
