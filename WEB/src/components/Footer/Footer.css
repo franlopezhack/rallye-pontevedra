@@ -1,5 +1,16 @@
+.bruma-img{
+    width: 480px;
+    border-radius: 250px ;
+}
+
 .copy{
     font-size: 15px;
+}
+
+.copy-logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
 }
 
 .media{
@@ -26,6 +37,12 @@
 }
 
 @media(max-width:1024px){
+    .bruma-img {
+        width: 270px;
+    }
+}
+
+@media(max-width:1024px){
     .footer-adress{
         list-style: none;
         margin-left: -30px;
@@ -35,6 +52,7 @@
 @media(max-width:1024px){
     .copy-logo{
        flex-direction: column;
+       justify-content: center;
     }
 }
 

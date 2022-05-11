@@ -1,5 +1,7 @@
-.card{
-    width: 450px;
+.card-release{
+    width: 510px;
+    display: flex;
+    flex-direction: row;
 }
 
 @media(max-width:1024px){

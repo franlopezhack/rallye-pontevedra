@@ -29,7 +29,7 @@ function Releases() {
             <div className="release-card">
                 {releases.map(release =>
                     <Link to={`/releases/${release.id}`} style={{ textDecoration: 'none' }} key={release.title}>
-                        <div className="card card-release mb-5 me-5" >
+                        <div className="card  card-release mb-5 me-5" >
                             <div className="row g-0">
                                 <div className="col-md-4" id='img-card'>
                                     <img src={release.avatar} className="img-fluid rounded-start" alt={release.image} />
@@ -37,8 +37,8 @@ function Releases() {
                                 <div className="col-md-8 text-release">
                                     <div className="card-body">
                                         <h5 className="card-title">{release.title}</h5>
-                                        <p className="card-text">{release.description.slice(0, 100)}...</p>
-                                        {release.createdAt.slice(0,10)}
+                                        <p className="card-text mb-4">{release.description.slice(0, 100)}...</p>
+                                        <p className="text-end">{release.createdAt.slice(0,10)}</p>
                                     </div>
                                 </div>
                             </div>
