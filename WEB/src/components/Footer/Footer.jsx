@@ -1,6 +1,6 @@
 import './Footer.css'
 import escudería from '../../assets/logo/logo-escudería.png'
-// import bruma from '../../assets/images/Logotipo Azul Oscuro Tecnología y Gaming.png'
+
 
 
 function Footer() {
@@ -30,12 +30,10 @@ function Footer() {
                             <li>36960</li>
                             <li>SANXENXO    PONTEVEDRA</li>
                             <li>TLFN.: 615562578</li>
+                            <li>Aqui estoy poniendo esto para hacer las pruebas sobre los errores de heroku</li>
                         </ul>
                     </div>
                 </div>
-                {/* <div className='d-flex justify-content-center'>
-                    <img className='bruma-img' src={bruma} alt={bruma} />
-                </div> */}
             </footer>
         </>
 
