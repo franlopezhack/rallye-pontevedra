@@ -29,11 +29,7 @@ function Footer() {
                             <li>36960</li>
                             <li>SANXENXO    PONTEVEDRA</li>
                             <li>TLFN.: 615562578</li>
-<<<<<<< HEAD
                             <li>TLFN.: 615562578</li>
-=======
-                            <li>Aqui estoy poniendo esto para hacer las pruebas sobre los errores de heroku</li>
->>>>>>> 39546f23e9ac52dd13b222b5ad3a201281eed4df
                         </ul>
                     </div>
                 </div>
