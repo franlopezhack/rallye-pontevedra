@@ -1,6 +1,9 @@
 import './Footer.css'
 import escudería from '../../assets/logo/logo-escudería.png'
+<<<<<<< HEAD
 
+=======
+>>>>>>> c931ff5d354f0a432a8851f16403276b268f4900
 
 
 function Footer() {
