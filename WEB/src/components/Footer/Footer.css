@@ -1,6 +1,6 @@
 .bruma-img{
-    width: 480px;
-    border-radius: 250px ;
+    width: 220px;
+    border-radius: 10px ;
 }
 
 .copy{
@@ -38,7 +38,7 @@
 
 @media(max-width:1024px){
     .bruma-img {
-        width: 270px;
+        width: 170px;
     }
 }
 
