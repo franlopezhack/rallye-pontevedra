@@ -29,6 +29,7 @@ function Footer() {
                             <li>36960</li>
                             <li>SANXENXO    PONTEVEDRA</li>
                             <li>TLFN.: 615562578</li>
+                            <li>TLFN.: 615562578</li>
                         </ul>
                     </div>
                 </div>
