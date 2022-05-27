@@ -23,6 +23,7 @@ function NewRelease() {
             description: e.target.description.value,
             avatar: e.target.avatar.files[0]
         })
+ 
             .then(() => {
                 navigate('/releases')
             })
