@@ -29,8 +29,8 @@ function Releases() {
             <div className='item-body row justify-content-center'>
                 {releases.map(release => (
 
-                    <div className="card shadow mt-1 mb-2 ms-2" style={{ width: '24rem' }}  key={release.id}>
-                        <Link to={`/releases/${release.id}`} style={{ textDecoration: "none" }}>
+                    <div className="card shadow mt-1 mb-2 ms-2" style={{ width: '30rem' }}  key={release.id}>
+                        <Link to={`/releases/${release.id}`}  style={{ textDecoration: "none" }}>
                             <div className='inner text-center' >
                                 <img src={release.avatar} className="card-img-top mt-2 p-1"  alt={release.title} />
                             </div>

@@ -1,9 +1,5 @@
-.release-card{
-    width: 485px;
-}
-
 @media(max-width:1024px){
-    .release-card{
-        width: 100%;
+    .card-last{
+        width: 22rem !important;
     }
 }

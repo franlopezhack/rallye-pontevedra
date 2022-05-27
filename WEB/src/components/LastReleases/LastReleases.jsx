@@ -12,7 +12,7 @@ function LastReleases() {
     useEffect(() => {
         getReleases()
             .then((releases) => {
-                setReleases(releases.reverse().slice(0,2))
+                setReleases(releases.reverse().slice(0, 2))
             })
     }, []);
 
@@ -24,22 +24,24 @@ function LastReleases() {
 
     return (
         <div className=" d-flex flex-wrap">
-            {releases.map(release =>
-                <Link to={`/releases/${release.id}`} style={{textDecoration:'none'}} key={release.title}>
-                    <div className="card release-card mb-5 me-5" >
-                        <div className="row g-0">
-                            <div className="col-md-4" id='img-card'>
-                                <img src={release.avatar} className="img-fluid rounded-start" alt={release.image} />
-                            </div>
-                            <div className="col-md-8 text-release">
-                                <div className="card-body">
-                                    <h5 className="card-title">{release.title}</h5>
-                                    <p className="card-text">{release.description.slice(0, 100)}...</p>
-                                </div>
-                            </div>
+            {releases.map(release => (
+
+                <div className="card card-last shadow mt-1 mb-2 ms-2" style={{ width: '30rem' }} key={release.id}>
+                    <Link to={`/releases/${release.id}`} style={{ textDecoration: "none" }}>
+                        <div className='inner text-center' >
+                            <img src={release.avatar} className="card-img-top mt-2 p-1" alt={release.title} />
                         </div>
+                    </Link>
+                    <hr />
+                    <div className="card-body">
+                        <h5 className="card-title">{release.title}</h5>
+                        <div className='card-price'>
+                            <small>{release.description.slice(0, 150)}...</small>
+                        </div>
+                        <p>{release.date}</p>
                     </div>
-                </Link>
+                </div>
+            )
             )}
         </div>
     )
