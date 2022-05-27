@@ -1,6 +1,5 @@
 import './Footer.css'
 import escudería from '../../assets/logo/logo-escudería.png'
-import bruma from '../../assets/images/logo.png'
 
 
 function Footer() {
@@ -32,9 +31,6 @@ function Footer() {
                             <li>TLFN.: 615562578</li>
                         </ul>
                     </div>
-                </div>
-                <div className='d-flex justify-content-center'>
-                    <img className='bruma-img' src={bruma} alt={bruma} />
                 </div>
             </footer>
         </>
