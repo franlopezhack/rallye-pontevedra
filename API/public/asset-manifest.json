@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.216d1ef9.css",
-    "main.js": "/static/js/main.dcd698f2.js",
+    "main.js": "/static/js/main.de43cccf.js",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
     "static/media/Bamarti.jpg": "/static/media/Bamarti.9b0b96204361cfa55256.jpg",
@@ -33,10 +33,10 @@
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
     "main.216d1ef9.css.map": "/static/css/main.216d1ef9.css.map",
-    "main.dcd698f2.js.map": "/static/js/main.dcd698f2.js.map"
+    "main.de43cccf.js.map": "/static/js/main.de43cccf.js.map"
   },
   "entrypoints": [
     "static/css/main.216d1ef9.css",
-    "static/js/main.dcd698f2.js"
+    "static/js/main.de43cccf.js"
   ]
 }
