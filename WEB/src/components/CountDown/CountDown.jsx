@@ -45,11 +45,11 @@ function CountDown() {
         return () => {
             clearInterval(interval.current)
         }
-    }, [startTimer])
+    }, [])
 
     return (
         <>
-        <h1 className="text-center">Comenzamos la cuenta atrás </h1>
+            <h1 className="text-center " style={{ color: 'red', fontWeight:'600' }}>Comenzamos la cuenta atrás </h1>
             <div className='count-down text-center'>
                 <section className='count-down-section'>
                     <h5>DIAS</h5>
