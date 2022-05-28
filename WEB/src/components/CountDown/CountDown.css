@@ -1,10 +1,15 @@
 .count-down{
     display: flex;
     justify-content: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .count-down-section{
-  width: 300px;
+    background-color: rgba(255, 0, 0, 0.226);
+    border: 1px solid;
+    border-radius: 10px;
+    width: 250px; 
 }
 
 .count-down-section h5{
@@ -17,4 +22,42 @@
     font-size: 60px;
     font-weight: 800;
     color: red;
+}
+
+.count-down span{
+    font-size: 100px;
+}
+
+@media(max-width:1024px){
+    .count-down{
+        display: flex;
+        justify-content:center;
+    }
+}
+
+@media(max-width:1024px){
+    .count-down-section{
+        width: 70px; 
+        height:75px;
+    }
+}
+
+@media(max-width:1024px){
+    .count-down-section h5{
+        font-size: 11px;
+        font-weight: 600;
+        margin-top: -12px;
+    } 
+}
+
+@media(max-width:1024px){
+    .count-down-section p{
+        font-size: 35px;
+    }
+}
+
+@media(max-width:1024px){
+    .count-down span{
+        font-size: 50px;
+    }
 }

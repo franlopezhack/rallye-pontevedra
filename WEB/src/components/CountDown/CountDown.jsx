@@ -49,26 +49,32 @@ function CountDown() {
 
     return (
         <>
-            <h1 className="text-center " style={{ color: 'red', fontWeight:'600' }}>Comenzamos la cuenta atrás </h1>
-            <div className='count-down text-center'>
-                <section className='count-down-section'>
-                    <h5>DIAS</h5>
-                    <p>{timerDays}</p>
-                </section>
-                <section className='count-down-section'>
-                    <h5>HORAS</h5>
-                    <p>{timerHours}</p>
-                </section>
-                <section className='count-down-section'>
-                    <h5>MINUTOS</h5>
-                    <p>{timerMinutes}</p>
-                </section>
-                <section className='count-down-section'>
-                    <h5>SEGUNDOS</h5>
-                    <p>{timerSeconds}</p>
-                </section>
+            <div className="container-count">
+                <h1 className="text-center mt-2 mb-2" style={{ color: 'red', fontWeight: '600' }}>Comenzamos la cuenta atrás </h1>
+                <div className='count-down text-center mt-5 mb-5'>
+                    <section className='count-down-section'>
+                        <p>{timerDays}</p>
+                        <h5>DIAS</h5>
+                    </section>
+                    <span>:</span>
+                    <section className='count-down-section'>
+                        <p>{timerHours}</p>
+                        <h5>HORAS</h5>
+                    </section>
+                    <span>:</span>
+                    <section className='count-down-section'>
+                        <p>{timerMinutes}</p>
+                        <h5>MINUTOS</h5>
+                    </section>
+                    <span>:</span>
+                    <section className='count-down-section'>
+                        <p>{timerSeconds}</p>
+                        <h5>SEGUNDOS</h5>
+                    </section>
+                </div>
             </div>
         </>
+
     )
 }
 
