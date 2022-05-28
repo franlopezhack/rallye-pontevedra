@@ -14,6 +14,7 @@ import Press from "./components/Press/Press";
 // import HomeCarousel from "./components/HomeCarrousel/HomeCarousel";
 // import MarqueeSponsors from "./components/MarqueSponsors/MarqueSponsors";
 import Spectators from "./components/Spectators/Spectators";
+import CountDown from "./components/CountDown/CountDown";
 
 
 function App() {
@@ -22,7 +23,6 @@ function App() {
       <NavBar />
       {/* <MarqueeSponsors/>
       <HomeCarousel/> */}
-    
       <div className="mt-5 p-2">
         <Routes>
           <Route path="/" element={<Home />} />

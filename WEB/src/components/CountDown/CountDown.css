@@ -1,0 +1,20 @@
+.count-down{
+    display: flex;
+    justify-content: center;
+}
+
+.count-down-section{
+  width: 300px;
+}
+
+.count-down-section h5{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.count-down-section p{
+    font-size: 60px;
+    font-weight: 800;
+    color: red;
+}
