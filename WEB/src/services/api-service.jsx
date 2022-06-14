@@ -41,3 +41,7 @@ export function getReleases() {
 export function getReleasesDetail(id) {
   return http.get(`api/releases/${id}`)
 }
+
+export function getParticipantRel(){
+  return http.get('/api/')
+}

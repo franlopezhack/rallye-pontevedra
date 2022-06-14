@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 
-const mapSchema = new Schema({
+const communicatingSchema = new Schema({
     name: {
         type: String,
         required: 'Map title is required'
@@ -11,16 +11,13 @@ const mapSchema = new Schema({
         type: String
     },
 
-    maps: {
+    noticePdf: {
         type: String,
         required: 'Image is required'
     },
-    mapDT:{
-        type: String
-    }
 }, {
     timestamps: true
 });
 
-const Map = mongoose.model('Map', mapSchema);
+const Communicating = mongoose.model('Map', communicatingSchema);
 module.exports = Map
