@@ -1,24 +1,24 @@
-const Maps = require('../models/map.model')
+const Communicatings = require('../models/communicating.model')
 const createError = require('http-errors')
 
 
 module.exports.list = (req, res, next) => {
-    Maps.find()
-        .then((maps) => res.status(201).json(maps))
+    Communicatings.find()
+        .then((communicating) => res.status(201).json(communicating))
         .catch((error) => next(error))
 }
 
 module.exports.create = (req, res, next) => {
-    Maps.create(req.body)
-        .then(map => res.json(map))
+    Communicatings.create(req.body)
+        .then(communicating => res.json(communicating))
         .catch(error => next(error))
 }
 
 
 module.exports.detail = (req, res, next) => {
-    Maps.findById(req.params.id)
-        .then(map => {
-            if (!map) {
+    Communicatings.findById(req.params.id)
+        .then(communicating => {
+            if (!communicating) {
                 next(createError(404, 'not found'))
             } else {
                 res.json(ma)
@@ -28,10 +28,10 @@ module.exports.detail = (req, res, next) => {
 }
 
 module.exports.delete = (req, res, next) => {
-    Maps.findByIdAndDelete(req.params.id)
-        .then(map => {
-            if (!map) {
-                next(createError(404, `Map ${req.params.id} not found`))
+    Communicatings.findByIdAndDelete(req.params.id)
+        .then(communicating => {
+            if (!communicating) {
+                next(createError(404, `communicating ${req.params.id} not found`))
             } else {
                 res.status(204).send()
             }
