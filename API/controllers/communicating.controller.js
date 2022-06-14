@@ -1,24 +1,24 @@
-const Communicates = require('../models/communicating.model')
+const Maps = require('../models/communicating.model')
 const createError = require('http-errors')
 
 
 module.exports.list = (req, res, next) => {
-    Communicates.find()
-        .then((communicate) => res.status(201).json(communicate))
+    Maps.find()
+        .then((maps) => res.status(201).json(maps))
         .catch((error) => next(error))
 }
 
 module.exports.create = (req, res, next) => {
-    Communicates.create(req.body)
-        .then(communicate => res.json(communicate))
+    Maps.create(req.body)
+        .then(map => res.json(map))
         .catch(error => next(error))
 }
 
 
 module.exports.detail = (req, res, next) => {
-    Communicates.findById(req.params.id)
-        .then(communicate => {
-            if (!communicate) {
+    Maps.findById(req.params.id)
+        .then(map => {
+            if (!map) {
                 next(createError(404, 'not found'))
             } else {
                 res.json(ma)
@@ -28,9 +28,9 @@ module.exports.detail = (req, res, next) => {
 }
 
 module.exports.delete = (req, res, next) => {
-    Communicates.findByIdAndDelete(req.params.id)
-        .then(communicate => {
-            if (!communicate) {
+    Maps.findByIdAndDelete(req.params.id)
+        .then(map => {
+            if (!map) {
                 next(createError(404, `Map ${req.params.id} not found`))
             } else {
                 res.status(204).send()
