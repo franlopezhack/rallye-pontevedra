@@ -1,14 +1,14 @@
 const createError = require('http-errors');
 const express = require('express');
 const router = express.Router();
-const communicating = require('../controllers/communicating.controller')
+const map = require('../controllers/maps.controller')
 const releases = require('../controllers/release.controller')
 const upload = require('../config/multer.config')
 
-router.get('/communicating', communicating.list)
-router.post('/communicating', communicating.create)
-router.get('/communicating/:id', communicating.detail)
-router.delete('/communicating/:id', communicating.delete)
+router.get('/maps', map.list)
+router.post('/maps', map.create)
+router.get('/maps/:id', map.detail)
+router.delete('/maps/:id', map.delete)
 
 router.get('/releases', releases.list)
 router.post('/releases', upload.single('avatar'), releases.create)

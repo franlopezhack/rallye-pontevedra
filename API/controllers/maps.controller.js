@@ -1,4 +1,4 @@
-const Maps = require('../models/communicating.model')
+const Maps = require('../models/map.model')
 const createError = require('http-errors')
 
 
