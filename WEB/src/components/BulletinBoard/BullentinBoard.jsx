@@ -8,23 +8,22 @@ import { Link } from 'react-router-dom'
 function BulletinBoard() {
     return (
         <div className='bulletin-board '>
-            <article className='m-1'>
-                <Link to='/participantes' >
+            <article className=''>
+                <a href='/participantes' >
                     <img src={anuncios} alt={anuncios} />
-                </Link>
-                <h5 className='text-center fw-bold fs-100'>Información actualizada</h5>
-                <h5 className='text-center fw-bold fs-100'>para participantes</h5>
+                </a>
+                <h5 className='text-center fw-bold fs-100'>Información participantes</h5>
             </article>
 
             <article>
-                <a href={revista} className='m-1'>
+                <a href={revista} className=''>
                     <img src={espectador} alt={espectador} />
                 </a>
                 <h5 className='text-center fw-bold fs-100'>Guia del expectador</h5>
             </article>
 
             <article>
-                <a target='_blank' rel="noreferrer" href='http://temposfga.es/' className='m-1'>
+                <a target='_blank' rel="noreferrer" href='http://temposfga.es/' className=''>
                     <img src={tiempos} alt={tiempos} />
                 </a>
                 <h5 className='text-center fw-bold fs-100'>Tiempos en directo</h5>

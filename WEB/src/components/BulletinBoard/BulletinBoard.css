@@ -1,6 +1,6 @@
 .bulletin-board img{
-    width: 100%;
-    max-width: 280px;
+    width: 270px;
+    max-width: 100%;
     object-fit: cover;
 }
 
@@ -16,9 +16,9 @@
 
 @media(max-width:1024px){
     .bulletin-board img{
-        width: 100%;
-        max-width: 110px;
-        object-fit: cover;
+        width: 100px;
+        margin: 10px;
+
     }
 }
 
@@ -37,3 +37,10 @@
         margin-bottom: 20px;
     } 
 }
+
+@media(max-width:1024px){
+    .bulletin-board h5 {
+        font-size: 10px;
+    }
+}
+
