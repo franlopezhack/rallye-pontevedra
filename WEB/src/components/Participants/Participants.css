@@ -3,9 +3,23 @@
 }
 
 .img-pdf{
-    width: 5%;
+    width: 8%;
 }
 
 .link_Pdf{
     cursor:wait;
+}
+
+
+@media(max-width:1024px){
+    .img-pdf{
+        width: 15%;
+    }
+}
+
+@media(max-width:1024px){
+    .communcating h1{
+        text-decoration: underline;
+        font-size: 20px;
+       }
 }
