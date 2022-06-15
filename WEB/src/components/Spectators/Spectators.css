@@ -1,8 +1,12 @@
 .spectators{
-
     display: flex;
     justify-content: center;
     margin-top: 5%;
+}
+
+.spectators img{
+    width: 350px;
+    max-width: 100%;
 }
 
 .img_guide{
@@ -18,3 +22,70 @@
 .tc_container{
     padding: 70px;
 }
+
+.chapa img{
+    width: 200px;
+    height: 100px;
+    max-width: 100%;  
+}
+
+.chapa{
+    align-items: center;
+}
+
+@media(max-width:1024px){
+    .spectators {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;  
+    }
+}
+
+@media(max-width:1024px){
+    .tc_container{
+        padding: 0;
+    }
+}
+
+
+@media(max-width:1024px){
+    .tc_section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1024px){
+    .tc_section img{
+        width: 450px;
+    }
+}
+
+@media(max-width:1024px){
+    .tc_container h3{
+        display: flex;
+        font-size: 10px;
+        justify-content: center;
+        margin-bottom: -10px;
+    }
+}
+
+@media(max-width:1024px){
+    .chapa{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:1024px){
+    .chapa h3 {
+        font-size: 17px !important;
+    }
+}
+
+@media(max-width:1024px){
+    .chapa img{
+        width: 150px;
+        height: 75px;
+    }
+}
+
