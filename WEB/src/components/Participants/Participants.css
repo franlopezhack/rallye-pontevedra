@@ -1,3 +1,11 @@
 .container-participants img{
     width: 30%;
 }
+
+.img-pdf{
+    width: 5%;
+}
+
+.link_Pdf{
+    cursor:wait;
+}

@@ -43,5 +43,5 @@ export function getReleasesDetail(id) {
 }
 
 export function getParticipantRel(){
-  return http.get('/api/')
+  return http.get('/api/communicating')
 }
