@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8ff44c1.css",
-    "main.js": "/static/js/main.62355487.js",
+    "main.css": "/static/css/main.00101b0b.css",
+    "main.js": "/static/js/main.d32189c0.js",
+    "static/media/REVISTA V6.pdf": "/static/media/REVISTA V6.130aedfbb5d56f887bf2.pdf",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
     "static/media/Bamarti.jpg": "/static/media/Bamarti.9b0b96204361cfa55256.jpg",
+    "static/media/reg-part-pontevedra-2022.pdf": "/static/media/reg-part-pontevedra-2022.45a19bb9fcad7125bd50.pdf",
     "static/media/placa.png": "/static/media/placa.9371922fb0533e48b4e2.png",
     "static/media/Furgoline.jpg": "/static/media/Furgoline.1337a14774f1b3aae251.jpg",
     "static/media/CARTELSEGURIDADPUBLICO.jpg": "/static/media/CARTELSEGURIDADPUBLICO.5fc64d86242fb6b4cee6.jpg",
@@ -32,11 +34,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.e8ff44c1.css.map": "/static/css/main.e8ff44c1.css.map",
-    "main.62355487.js.map": "/static/js/main.62355487.js.map"
+    "main.00101b0b.css.map": "/static/css/main.00101b0b.css.map",
+    "main.d32189c0.js.map": "/static/js/main.d32189c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ff44c1.css",
-    "static/js/main.62355487.js"
+    "static/css/main.00101b0b.css",
+    "static/js/main.d32189c0.js"
   ]
 }
