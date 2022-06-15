@@ -34,7 +34,6 @@ function Releases() {
                             <div className='inner text-center' >
                                 <img src={release.avatar} className="card-img-top mt-2 p-1"  alt={release.title} />
                             </div>
-                            <a style={{textDecoration:'none', color:'black' }} href={release.link}>{release.link}</a>
                         </Link>
                         <hr />
                         <div className="card-body">
