@@ -43,6 +43,6 @@ export function getReleasesDetail(id) {
   return http.get(`api/releases/${id}`)
 }
 
-export function getCommunicating(){
+export function getCommunicating() {
   return http.get('/api/communicating')
 }
