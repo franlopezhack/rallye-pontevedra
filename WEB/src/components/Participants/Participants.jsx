@@ -13,7 +13,7 @@ function Participants() {
     useEffect(() => {
         getCommunicating()
             .then((communicate => {
-                setcommunicating(communicate)
+                setcommunicating(communicate.reverse())
                 console.log(communicate, 'comuncados aqui??')
             }))
     }, [])
