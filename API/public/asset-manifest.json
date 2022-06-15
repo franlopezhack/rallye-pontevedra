@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2d65e75f.css",
-    "main.js": "/static/js/main.e4881b16.js",
+    "main.css": "/static/css/main.89578596.css",
+    "main.js": "/static/js/main.438aeede.js",
     "static/media/REVISTA V6.pdf": "/static/media/REVISTA V6.130aedfbb5d56f887bf2.pdf",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
@@ -19,6 +19,7 @@
     "static/media/Ausavil.jpg": "/static/media/Ausavil.9f42c5d1eddb842ccd64.jpg",
     "static/media/Polymade.jpg": "/static/media/Polymade.193801a750be217922e8.jpg",
     "static/media/Nautico Sanxenxo.jpg": "/static/media/Nautico Sanxenxo.e6c2caf029483a3e0690.jpg",
+    "static/media/Captura de Pantalla 2022-06-15 a las 20.55.12.png": "/static/media/Captura de Pantalla 2022-06-15 a las 20.55.12.d22a4fc723473937ab19.png",
     "static/media/Pegatina_Vipeon_6x6_page-0001-removebg-preview.png": "/static/media/Pegatina_Vipeon_6x6_page-0001-removebg-preview.f69137bd825a5c779dbd.png",
     "static/media/Racing Dakart.jpg": "/static/media/Racing Dakart.659df721a6fc501ecfd5.jpg",
     "static/media/anuncios.png": "/static/media/anuncios.4b532a331cc006481acb.png",
@@ -29,6 +30,7 @@
     "static/media/logo-escudería.png": "/static/media/logo-escudería.bea11d6d4a72cf63f82b.png",
     "static/media/xacobeo-removebg-preview.png": "/static/media/xacobeo-removebg-preview.d73e9d0bbf06556f0cd7.png",
     "static/media/RS Premium Car.jpg": "/static/media/RS Premium Car.792ddf2bad027b75789b.jpg",
+    "static/media/D25KVtmXgAUQTlv.jpeg": "/static/media/D25KVtmXgAUQTlv.b50baa28ea30550efb7c.jpeg",
     "static/media/Garaje progreso.png": "/static/media/Garaje progreso.d1a65f31eb92228640d6.png",
     "static/media/cerdedo-removebg-preview.png": "/static/media/cerdedo-removebg-preview.1688ae46eaad611107e1.png",
     "static/media/campo-lameiro.png": "/static/media/campo-lameiro.f88e4f6d505406c42bb0.png",
@@ -38,11 +40,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.2d65e75f.css.map": "/static/css/main.2d65e75f.css.map",
-    "main.e4881b16.js.map": "/static/js/main.e4881b16.js.map"
+    "main.89578596.css.map": "/static/css/main.89578596.css.map",
+    "main.438aeede.js.map": "/static/js/main.438aeede.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d65e75f.css",
-    "static/js/main.e4881b16.js"
+    "static/css/main.89578596.css",
+    "static/js/main.438aeede.js"
   ]
 }
