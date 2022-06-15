@@ -39,10 +39,10 @@ function Participants() {
                 </div>
             </div>
             <div className='mb-5'>
-                <Link to={regulamiento} className='link_Pdf d-flex align-items-center ms-5' style={{ textDecoration: 'none', color: 'black' }}>
+                <a href={regulamiento} className='link_Pdf d-flex align-items-center ms-5' style={{ textDecoration: 'none', color: 'black' }}>
                     <img className='img-pdf me-5' src={pdf_logo} alt={pdf_logo} />
                     <h3>Regulamiento particular...</h3>
-                </Link>
+                </a>
             </div>
             <hr />
 
