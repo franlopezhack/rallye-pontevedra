@@ -21,6 +21,7 @@ function NewRelease() {
         newRelease({
             title: e.target.title.value,
             description: e.target.description.value,
+            link:e.target.link.value,
             avatar: e.target.avatar.files[0]
         })
  
@@ -55,6 +56,12 @@ function NewRelease() {
                 Photo
                     <input type='file' name="avatar"/>
                     {error?.description}
+                </div>
+
+                <div className="mb-3">
+                Photo
+                    <input type='text' name="link"/>
+                    {error?.link}
                 </div>
 
                 <hr />

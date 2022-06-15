@@ -14,6 +14,9 @@ const releaseSchema = new Schema ({
 
     avatar:{
         type: String,
+    },
+    link:{
+        type:String
     }
 },{
     timestamps: true,

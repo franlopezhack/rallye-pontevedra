@@ -30,6 +30,7 @@ export function newRelease(release) {
   data.append('title', release.title)
   data.append('description', release.description)
   data.append('avatar', release.avatar)
+  data.happend('link', release.link)
 
   return http.post('/api/releases', data)
 }
