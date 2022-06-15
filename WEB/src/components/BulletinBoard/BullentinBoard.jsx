@@ -3,7 +3,6 @@ import anuncios from '../../assets/images/BulletinBoard/anuncios.png'
 import espectador from '../../assets/images/BulletinBoard/espectador.png'
 import tiempos from '../../assets/images/BulletinBoard/tiempos.png'
 import revista from '../../assets/Pdfs/REVISTA V6.pdf'
-import { Link } from 'react-router-dom'
 
 function BulletinBoard() {
     return (

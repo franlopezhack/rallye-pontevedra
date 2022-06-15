@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.89578596.css",
-    "main.js": "/static/js/main.438aeede.js",
+    "main.css": "/static/css/main.00b245bf.css",
+    "main.js": "/static/js/main.7f9277ae.js",
     "static/media/REVISTA V6.pdf": "/static/media/REVISTA V6.130aedfbb5d56f887bf2.pdf",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
@@ -40,11 +40,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.89578596.css.map": "/static/css/main.89578596.css.map",
-    "main.438aeede.js.map": "/static/js/main.438aeede.js.map"
+    "main.00b245bf.css.map": "/static/css/main.00b245bf.css.map",
+    "main.7f9277ae.js.map": "/static/js/main.7f9277ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.89578596.css",
-    "static/js/main.438aeede.js"
+    "static/css/main.00b245bf.css",
+    "static/js/main.7f9277ae.js"
   ]
 }
