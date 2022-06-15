@@ -1,26 +1,26 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const releaseSchema = new Schema ({
-    title:{
+const releaseSchema = new Schema({
+    title: {
         type: String,
         required: 'Release title is required'
     },
 
-    description:{
+    description: {
         type: String,
         required: 'Release description in required'
     },
 
-    avatar:{
+    avatar: {
         type: String,
     },
-    link:{
-        type:String
+    link: {
+        type: String
     }
-},{
+}, {
     timestamps: true,
-    toJSON:{
+    toJSON: {
         transform: (doc, release) => {
             release.id = doc._id;
             delete release.__v;
@@ -28,7 +28,7 @@ const releaseSchema = new Schema ({
             return release
         }
     }
-}) 
+})
 
 const Release = mongoose.model('Release', releaseSchema);
 module.exports = Release

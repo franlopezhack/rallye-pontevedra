@@ -8,11 +8,11 @@ import { useNavigate } from "react-router";
 function NewRelease() {
 
     const navigate = useNavigate()
-    
+
 
     const [error, setError] = useState(null)
 
-   
+
 
 
     function handleSubmit(e) {
@@ -21,10 +21,10 @@ function NewRelease() {
         newRelease({
             title: e.target.title.value,
             description: e.target.description.value,
-            link:e.target.link.value,
+            link: e.target.link.value,
             avatar: e.target.avatar.files[0]
         })
- 
+
             .then(() => {
                 navigate('/releases')
             })
@@ -41,26 +41,26 @@ function NewRelease() {
             <form className="" onSubmit={handleSubmit}>
 
                 <div className="mb-3">
-                Title
+                    Title
                     {error && <div className="alert alert-danger">{error}</div>}
-                    <input type="text" name="title"/>
+                    <input type="text" name="title" />
                 </div>
 
                 <div className="mb-3">
-                Description
-                    <input type="text" name="description"/>
+                    Description
+                    <input type="text" name="description" />
                     {error?.description}
                 </div>
 
                 <div className="mb-3">
-                Photo
-                    <input type='file' name="avatar"/>
+                    Photo
+                    <input type='file' name="avatar" />
                     {error?.description}
                 </div>
 
                 <div className="mb-3">
-                Photo
-                    <input type='text' name="link"/>
+                    Link
+                    <input type='text' name="link" />
                     {error?.link}
                 </div>
 
