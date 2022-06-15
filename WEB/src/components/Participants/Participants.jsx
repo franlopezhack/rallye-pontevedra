@@ -2,7 +2,6 @@ import './Participants.css'
 import placa from '../../assets/logo/placa.png'
 import regulamiento from '../../assets/Pdfs/reg-part-pontevedra-2022.pdf'
 import pdf_logo from '../../assets/Pdfs/pdf-logo.png'
-import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { getCommunicating } from '../../services/api-service'
 

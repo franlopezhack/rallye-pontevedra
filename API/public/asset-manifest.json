@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e586c6f5.css",
-    "main.js": "/static/js/main.4c9f6717.js",
+    "main.css": "/static/css/main.2d65e75f.css",
+    "main.js": "/static/js/main.e4881b16.js",
     "static/media/REVISTA V6.pdf": "/static/media/REVISTA V6.130aedfbb5d56f887bf2.pdf",
     "static/media/img1.JPG": "/static/media/img1.54d026e8e7e933a7fa33.JPG",
     "static/media/img2.JPG": "/static/media/img2.a4a731a56581af7aad4d.JPG",
@@ -9,7 +9,11 @@
     "static/media/reg-part-pontevedra-2022.pdf": "/static/media/reg-part-pontevedra-2022.45a19bb9fcad7125bd50.pdf",
     "static/media/placa.png": "/static/media/placa.9371922fb0533e48b4e2.png",
     "static/media/Furgoline.jpg": "/static/media/Furgoline.1337a14774f1b3aae251.jpg",
+    "static/media/TC MEAÑO.png": "/static/media/TC MEAÑO.aebde5313b5fedc54dfd.png",
+    "static/media/TC Campo Lameiro - Moraña.png": "/static/media/TC Campo Lameiro - Moraña.b0b707ccec706864cbda.png",
+    "static/media/TC SANXENXO.png": "/static/media/TC SANXENXO.b3e276777f8d11f082d8.png",
     "static/media/CARTELSEGURIDADPUBLICO.jpg": "/static/media/CARTELSEGURIDADPUBLICO.5fc64d86242fb6b4cee6.jpg",
+    "static/media/TC CERDEDO COTOBADE.png": "/static/media/TC CERDEDO COTOBADE.23405827637435f04ffa.png",
     "static/media/foto ruta.jpeg": "/static/media/foto ruta.887dcebdd464e58bb53a.jpeg",
     "static/media/Exnor.jpg": "/static/media/Exnor.2fbf81437f6470395a32.jpg",
     "static/media/Ausavil.jpg": "/static/media/Ausavil.9f42c5d1eddb842ccd64.jpg",
@@ -34,11 +38,11 @@
     "static/media/xunta.png": "/static/media/xunta.fc3c59737c3d8fc01ba2.png",
     "static/media/moaña.png": "/static/media/moaña.ff23cdee1fdae343eb04.png",
     "index.html": "/index.html",
-    "main.e586c6f5.css.map": "/static/css/main.e586c6f5.css.map",
-    "main.4c9f6717.js.map": "/static/js/main.4c9f6717.js.map"
+    "main.2d65e75f.css.map": "/static/css/main.2d65e75f.css.map",
+    "main.e4881b16.js.map": "/static/js/main.e4881b16.js.map"
   },
   "entrypoints": [
-    "static/css/main.e586c6f5.css",
-    "static/js/main.4c9f6717.js"
+    "static/css/main.2d65e75f.css",
+    "static/js/main.e4881b16.js"
   ]
 }

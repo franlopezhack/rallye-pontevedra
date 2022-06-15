@@ -8,3 +8,13 @@
 .img_guide{
     width: 50%;
 }
+
+.tc img{
+    padding: 20px;
+    width: 650px;
+    max-width: 100%;
+}
+
+.tc_container{
+    padding: 70px;
+}
