@@ -52,9 +52,9 @@ function Spectators() {
                     <h3 className='mb-5 mt-5 me-5' >
                         Más información de los tramos en:
                     </h3>
-                    <Link to='http://www.peachaparacing.es/2022/06/guia-tramos-horarios-y-lista-de_15.html' style={{ textDecoration: 'none', color: 'black' }}>
+                    <a href='http://www.peachaparacing.es/2022/06/guia-tramos-horarios-y-lista-de_15.html' style={{ textDecoration: 'none', color: 'black' }}>
                         <img src={pe_a_chapa} alt={pe_a_chapa} />
-                    </Link>
+                    </a>
                 </section>
 
             </div>
