@@ -10,7 +10,7 @@ function Contact() {
                 <h3>INFORMACIÓN GENERAL</h3>
                 <h4>Diego Besada</h4>
                 <a href='mailto:info@rallyedepontevedra.es'>info@rallyedepontevedra.es</a>
-                <small><strong>Teléfono:</strong>  663 473 083</small>
+                <small><strong>Teléfono:</strong>  671 565 278</small>
             </div>
             <div className='inscription mb-5 d-flex row'>
                 <h3>INSCRIPCIONES</h3>
