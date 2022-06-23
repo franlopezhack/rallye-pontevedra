@@ -28,7 +28,7 @@ function Footer() {
                             <li>FONTOIRA Nº42</li>
                             <li>36960</li>
                             <li>SANXENXO    PONTEVEDRA</li>
-                            <li>TLFN.: 615562578</li>
+                            <li>TLFN.: 671 562 578</li>
                         </ul>
                     </div>
                 </div>
