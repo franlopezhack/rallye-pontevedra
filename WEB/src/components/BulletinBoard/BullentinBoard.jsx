@@ -3,14 +3,16 @@ import anuncios from '../../assets/images/BulletinBoard/anuncios.png'
 import espectador from '../../assets/images/BulletinBoard/espectador.png'
 import tiempos from '../../assets/images/BulletinBoard/tiempos.png'
 import revista from '../../assets/Pdfs/REVISTA V6.pdf'
+import {Link} from 'react-router-dom'
+
 
 function BulletinBoard() {
     return (
         <div className='bulletin-board '>
             <article className=''>
-                <a href='/participantes' >
+                <Link to='/participantes' >
                     <img src={anuncios} alt={anuncios} />
-                </a>
+                </Link>
                 <h5 className='text-center fw-bold fs-100'>Información participantes</h5>
             </article>
 
